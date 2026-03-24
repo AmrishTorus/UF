@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ct005-mms-uf-v1-ingress
+  namespace: ct005-mms-uf-v1
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - tgadev.toruslowcode.com
+      secretName: ct005-mms-uf-v1-tls
+  rules:
+    - host: tgadev.toruslowcode.com
+      http:
+        paths:
+          - path: /ct005/v001/mms/v1
+            pathType: Prefix
+            backend:
+              service:
+                name: ct005-mms-uf-generator
+                port:
+                  number: 443

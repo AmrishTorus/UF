@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: mms-docs-v1-ingress
+  namespace: mms-docs-v1
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-passthrough: "true"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - tgadev.toruslowcode.com
+      secretName: mms-docs-v1-tls
+  rules:
+    - host: tgadev.toruslowcode.com
+      http:
+        paths:
+          - path: /ct005/v001/mms/v1/docs
+            pathType: Prefix
+            backend:
+              service:
+                name: mms-docs-generator
+                port:
+                  number: 3000
