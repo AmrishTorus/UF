@@ -1,5 +1,5 @@
 /* {
-  "aKey": "CK:TGA:FNGK:BLDC:FNK:DEV:CATK:CT005:AFGK:V001:AFK:MMS:AFVK:v1:bldc",
+  "aKey": "CK:TGA:FNGK:BLDC:FNK:DEV:CATK:CT009:AFGK:TOB001:AFK:TOB002:AFVK:v1:bldc",
   "ufKey": "Logs Screen",
   "screenName": "logs",
   "screenLabel": "logs",
@@ -29,13 +29,27 @@
       "icon": "https://cdns3dfsdev.toruslowcode.com/torus/9.1/resources/icons/admin-svgrepo-com.svg"
     },
     {
-      "menuGroupLabel": "MMS",
+      "menuGroupLabel": "DashBoard",
       "screenDetails": [
         {
-          "name": "mms",
-          "key": "CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1",
+          "name": "dashboard",
+          "key": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1",
           "allowedAccessProfile": [
-            "Operation Team"
+            "TOB Template "
+          ],
+          "static": false
+        }
+      ],
+      "items": []
+    },
+    {
+      "menuGroupLabel": "API Usage DashBoard",
+      "screenDetails": [
+        {
+          "name": "api usage dashboard",
+          "key": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Design:AFVK:v1",
+          "allowedAccessProfile": [
+            "TOB Template "
           ],
           "static": false
         }
@@ -45,21 +59,20 @@
   ],
   "setupData": {
     "appInfo": {
-      "name": "Mandate Management System",
-      "code": "MMS",
+      "name": "Veracious Open Banking",
+      "code": "TOB002",
       "encryption": {
         "type": ""
       },
-      "applicationUniqueId": "ae093d5d-f44a-444b-afab-9476f31e7dca",
-      "deploymentArtifactKey": "CK:CT005:FNGK:AF:FNK:CDF-DPD:CATK:V001:AFGK:MMS:AFK:VGPH_MMS_DPD:AFVK:v1",
+      "applicationUniqueId": "8e16d097-8685-4fff-bad5-f9dce56d8949",
+      "deploymentArtifactKey": "CK:CT009:FNGK:AF:FNK:CDF-DPD:CATK:TOB001:AFGK:TOB002:AFK:TOB_DPD:AFVK:v1",
       "lastBuildVersion": "v1",
-      "lastBuildOn": "2026-03-23T13:50:52.018Z",
-      "accessUrl": "https://tgadev.toruslowcode.com/ct005/v001/mms/v1",
-      "appGrpName": "VGPH",
-      "appGrpCode": "V001",
-      "fusionAuthAppClientSecret": "AKE3Mkrdhezw9vln9mTV-Wnb8WVEivZ3BY0KTxqtmbc"
+      "lastBuildOn": "2026-03-24T05:30:24.124Z",
+      "accessUrl": "https://tgadev.toruslowcode.com/ct009/tob001/tob002/v1",
+      "appGrpName": "TOB",
+      "appGrpCode": "TOB001"
     },
-    "tenantAppearancekey": "CK:TGA:FNGK:SETUP:FNK:SF:CATK:TENANT:AFGK:CT005:AFK:PROFILE:AFVK:v1:appearance",
+    "tenantAppearancekey": "CK:TGA:FNGK:SETUP:FNK:SF:CATK:TENANT:AFGK:CT009:AFK:PROFILE:AFVK:v1:appearance",
     "selectedPresetKey": "default",
     "fontSize": "Small",
     "direction": "LTR",
@@ -81,8 +94,8 @@
         "tertiary": "#ee8b60"
       },
       "accentColors": {
-        "accentOne": "#4c4b39ef",
-        "accentTwo": "#4d39d2c0"
+        "accentOne": "#4c4b39",
+        "accentTwo": "#4d39d2"
       },
       "utilityColors": {
         "lightMode": {
@@ -122,19 +135,19 @@
     "language": "English",
     "fontFamily": [
       {
-        "label": "Inter",
-        "fontUrl": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        "fontUrl": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+        "label": "Inter"
       }
     ],
-    "text-body-font": "",
-    "text-header-font": "",
-    "text-display-font": "",
-    "name": "default",
-    "appBackgroundImage": "torus/9.1/CT005/resources/images/vivid-blurred-colorful-wallpaper-background_58702-3883.avif"
+    "text-body-font": "Inter",
+    "text-header-font": "Inter",
+    "text-display-font": "Inter",
+    "name": "default"
   },
-  "setupKey": "CK:TGA:FNGK:SETUP:FNK:SF:CATK:CT005:AFGK:V001:AFK:MMS:AFVK:v1:appearance",
+  "setupKey": "CK:TGA:FNGK:SETUP:FNK:SF:CATK:CT009:AFGK:TOB001:AFK:TOB002:AFVK:v1:appearance",
   "allKeys": [
-    "CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1"
+    "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1",
+    "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Design:AFVK:v1"
   ],
   "loginDetails": {
     "firstName": "sam",
@@ -247,19 +260,24 @@
         }
       ]
     },
-    "landingScreen": "CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1"
+    "landingScreen": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1"
   },
   "allKeyswithScreenNames": [
     {
-      "screenName": "mms",
-      "screensName": "mms-v1",
-      "ufKey": "CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1"
+      "screenName": "dashboard",
+      "screensName": "dashboard-v1",
+      "ufKey": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1"
+    },
+    {
+      "screenName": "api usage dashboard",
+      "screensName": "api_usage_dashboard-v1",
+      "ufKey": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Design:AFVK:v1"
     }
   ],
-  "deploymentArtifactKey": "CK:CT005:FNGK:AF:FNK:CDF-DPD:CATK:V001:AFGK:MMS:AFK:VGPH_MMS_DPD:AFVK:v1",
-  "appGroupDesc": "VGPH",
+  "deploymentArtifactKey": "CK:CT009:FNGK:AF:FNK:CDF-DPD:CATK:TOB001:AFGK:TOB002:AFK:TOB_DPD:AFVK:v1",
+  "appGroupDesc": "TOB",
   "logType": "mongodb",
-  "appDesc": "Mandate Management System",
+  "appDesc": "Veracious Open Banking",
   "isOld": true,
   "clientCode": "CT003"
 } */
@@ -273,8 +291,8 @@ import { GlobalProvider } from '@/context/GlobalContext';
 import { EventBusProvider } from '@/context/EventBusContext';
 import { ThemeWrapper } from '@/components/ThemeWrapper';
 export const metadata: Metadata = {
-  title: 'Mandate Management System',
-  description: 'Mandate Management System Generated by Torus'
+  title: 'Veracious Open Banking',
+  description: 'Veracious Open Banking Generated by Torus'
 }
 
 export default function RootLayout({

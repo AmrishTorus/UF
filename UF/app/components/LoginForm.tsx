@@ -30,7 +30,7 @@ interface LoginProps {
   image?: string
 }
 
-const LoginForm = ({ logo, appName = "Mandate Management System", loginType = "standard", image }: LoginProps) => {
+const LoginForm = ({ logo, appName = "Veracious Open Banking", loginType = "standard", image }: LoginProps) => {
   const [formData, setFormData] = useState<Record<string, string>>({
     email: '',
     password: ''
@@ -43,7 +43,7 @@ const LoginForm = ({ logo, appName = "Mandate Management System", loginType = "s
   const { branding } = useGlobal()
   const { brandColor } = branding
   const { bgColor, borderColor, textColor } = useTheme()
-  const onBoardingKey : string = "CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1"
+  const onBoardingKey : string = "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1"
   const tenant = process.env.NEXT_PUBLIC_TENANT_CODE
   const [imageandLogoValid, setImageandLogoValid] = useState({
     image: image ? true : false,
@@ -67,7 +67,7 @@ const LoginForm = ({ logo, appName = "Mandate Management System", loginType = "s
           client: tenant,
           username: formData.email,
           password: formData.password,
-          key: "CK:TGA:FNGK:BLDC:FNK:DEV:CATK:CT005:AFGK:V001:AFK:MMS:AFVK:v1:bldc",
+          key: "CK:TGA:FNGK:BLDC:FNK:DEV:CATK:CT009:AFGK:TOB001:AFK:TOB002:AFVK:v1:bldc",
           ufClientType: 'UFW'
         }
         const api_signin = await axios.post(
@@ -97,9 +97,14 @@ const LoginForm = ({ logo, appName = "Mandate Management System", loginType = "s
           let screenDetails: any = {
             keys:[
   {
-    "screenName": "mms",
-    "screensName": "mms-v1",
-    "ufKey": "CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1"
+    "screenName": "dashboard",
+    "screensName": "dashboard-v1",
+    "ufKey": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1"
+  },
+  {
+    "screenName": "api usage dashboard",
+    "screensName": "api_usage_dashboard-v1",
+    "ufKey": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Design:AFVK:v1"
   }
 ]
           }

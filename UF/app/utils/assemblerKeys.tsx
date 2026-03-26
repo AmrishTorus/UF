@@ -1,9 +1,14 @@
 export function getRouteScreenDetails(key: string, artfactName: string): string {
   let assemblerKeys: any = [
   {
-    "screenName": "mms",
-    "screensName": "mms-v1",
-    "ufKey": "CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1"
+    "screenName": "dashboard",
+    "screensName": "dashboard-v1",
+    "ufKey": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1"
+  },
+  {
+    "screenName": "api usage dashboard",
+    "screensName": "api_usage_dashboard-v1",
+    "ufKey": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Design:AFVK:v1"
   }
 ]
 

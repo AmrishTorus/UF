@@ -15,18 +15,23 @@ export default function HomePage() {
   const token :string | undefined = getCookie('token');
   const decodedToken : DecodedToken = decodeToken(token);
   const encryptionFlagApp: boolean = false;    
-  let landingScreen:string = 'CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1';
+  let landingScreen:string = 'CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1';
   const toast : Function = useInfoMsg();
   let screenDetails : ScreenDetail[] = [
   {
-    "screenName": "mms",
-    "screensName": "mms-v1",
-    "ufKey": "CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1"
+    "screenName": "dashboard",
+    "screensName": "dashboard-v1",
+    "ufKey": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1"
+  },
+  {
+    "screenName": "api usage dashboard",
+    "screensName": "api_usage_dashboard-v1",
+    "ufKey": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Design:AFVK:v1"
   }
 ]
   const securityCheck = async () : Promise<void> => {
     try {
-      const encryptionDpd: string = "CK:CT005:FNGK:AF:FNK:CDF-DPD:CATK:V001:AFGK:MMS:AFK:VGPH_MMS_DPD:AFVK:v1";
+      const encryptionDpd: string = "CK:CT009:FNGK:AF:FNK:CDF-DPD:CATK:TOB001:AFGK:TOB002:AFK:TOB_DPD:AFVK:v1";
       const encryptionMethod: string = "";
       let introspect:any;
       if(encryptionFlagApp){

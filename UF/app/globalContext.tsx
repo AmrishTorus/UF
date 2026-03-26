@@ -9,322 +9,520 @@ export interface TotalContextProps {
   setCurrentToken: React.Dispatch<React.SetStateAction<any>>
   matchedAccessProfileData: any;
   setMatchedAccessProfileData: React.Dispatch<React.SetStateAction<any>>
-  overallgroup00e53: any 
-  setoverallgroup00e53: React.Dispatch<React.SetStateAction<any>>
-  overallgroup00e53Props: any 
-  setoverallgroup00e53Props: React.Dispatch<React.SetStateAction<any>>
-  mandatedtls2cb9f: any 
-  setmandatedtls2cb9f: React.Dispatch<React.SetStateAction<any>>
-  mandatedtls2cb9fProps: any 
-  setmandatedtls2cb9fProps: React.Dispatch<React.SetStateAction<any>>
-  mandateinfo1b809: any 
-  setmandateinfo1b809: React.Dispatch<React.SetStateAction<any>>
-  mandateinfo1b809Props: any 
-  setmandateinfo1b809Props: React.Dispatch<React.SetStateAction<any>>
-  mnssubgroup3df12: any 
-  setmnssubgroup3df12: React.Dispatch<React.SetStateAction<any>>
-  mnssubgroup3df12Props: any 
-  setmnssubgroup3df12Props: React.Dispatch<React.SetStateAction<any>>
-  ct005_af_uf_ufws_v001_mms_mandate_subscreen2_v1a54b9: any 
-  setct005_af_uf_ufws_v001_mms_mandate_subscreen2_v1a54b9: React.Dispatch<React.SetStateAction<any>>
-  ct005_af_uf_ufws_v001_mms_mandate_subscreen2_v1a54b9Props: any 
-  setct005_af_uf_ufws_v001_mms_mandate_subscreen2_v1a54b9Props: React.Dispatch<React.SetStateAction<any>>
-  mndate_common_info3fb9d: any 
-  setmndate_common_info3fb9d: React.Dispatch<React.SetStateAction<any>>
-  mndate_common_info3fb9dProps: any 
-  setmndate_common_info3fb9dProps: React.Dispatch<React.SetStateAction<any>>
-  mndate_basic_sub_screenc9573: any 
-  setmndate_basic_sub_screenc9573: React.Dispatch<React.SetStateAction<any>>
-  mndate_basic_sub_screenc9573Props: any 
-  setmndate_basic_sub_screenc9573Props: React.Dispatch<React.SetStateAction<any>>
-  ct005_af_uf_ufws_v001_mms_mandate_subscreen_v12764c: any 
-  setct005_af_uf_ufws_v001_mms_mandate_subscreen_v12764c: React.Dispatch<React.SetStateAction<any>>
-  ct005_af_uf_ufws_v001_mms_mandate_subscreen_v12764cProps: any 
-  setct005_af_uf_ufws_v001_mms_mandate_subscreen_v12764cProps: React.Dispatch<React.SetStateAction<any>>
-  subgroup7f52e: any 
-  setsubgroup7f52e: React.Dispatch<React.SetStateAction<any>>
-  subgroup7f52eProps: any 
-  setsubgroup7f52eProps: React.Dispatch<React.SetStateAction<any>>
-  mandate_data_tabb1bce: any 
-  setmandate_data_tabb1bce: React.Dispatch<React.SetStateAction<any>>
-  mandate_data_tabb1bceProps: any 
-  setmandate_data_tabb1bceProps: React.Dispatch<React.SetStateAction<any>>
-  document_lst2adea: any 
-  setdocument_lst2adea: React.Dispatch<React.SetStateAction<any>>
-  document_lst2adeaProps: any 
-  setdocument_lst2adeaProps: React.Dispatch<React.SetStateAction<any>>
-  doc_data_lst1fd5c: any 
-  setdoc_data_lst1fd5c: React.Dispatch<React.SetStateAction<any>>
-  doc_data_lst1fd5cProps: any 
-  setdoc_data_lst1fd5cProps: React.Dispatch<React.SetStateAction<any>>
-  validation_lst771f5: any 
-  setvalidation_lst771f5: React.Dispatch<React.SetStateAction<any>>
-  validation_lst771f5Props: any 
-  setvalidation_lst771f5Props: React.Dispatch<React.SetStateAction<any>>
-  valdtn_data_lst378bc: any 
-  setvaldtn_data_lst378bc: React.Dispatch<React.SetStateAction<any>>
-  valdtn_data_lst378bcProps: any 
-  setvaldtn_data_lst378bcProps: React.Dispatch<React.SetStateAction<any>>
-  comment_lst2b2ca: any 
-  setcomment_lst2b2ca: React.Dispatch<React.SetStateAction<any>>
-  comment_lst2b2caProps: any 
-  setcomment_lst2b2caProps: React.Dispatch<React.SetStateAction<any>>
-  cmnt_data_lste3582: any 
-  setcmnt_data_lste3582: React.Dispatch<React.SetStateAction<any>>
-  cmnt_data_lste3582Props: any 
-  setcmnt_data_lste3582Props: React.Dispatch<React.SetStateAction<any>>
-  mandatelstc0e2c: any 
-  setmandatelstc0e2c: React.Dispatch<React.SetStateAction<any>>
-  mandatelstc0e2cProps: any 
-  setmandatelstc0e2cProps: React.Dispatch<React.SetStateAction<any>>
-  mandatedatalst46c27: any 
-  setmandatedatalst46c27: React.Dispatch<React.SetStateAction<any>>
-  mandatedatalst46c27Props: any 
-  setmandatedatalst46c27Props: React.Dispatch<React.SetStateAction<any>>
-  listgroup6f63e: any 
-  setlistgroup6f63e: React.Dispatch<React.SetStateAction<any>>
-  listgroup6f63eProps: any 
-  setlistgroup6f63eProps: React.Dispatch<React.SetStateAction<any>>
-  doclst42d30: any 
-  setdoclst42d30: React.Dispatch<React.SetStateAction<any>>
-  doclst42d30Props: any 
-  setdoclst42d30Props: React.Dispatch<React.SetStateAction<any>>
-  docdatalst620a8: any 
-  setdocdatalst620a8: React.Dispatch<React.SetStateAction<any>>
-  docdatalst620a8Props: any 
-  setdocdatalst620a8Props: React.Dispatch<React.SetStateAction<any>>
-  valdtnlst4ad99: any 
-  setvaldtnlst4ad99: React.Dispatch<React.SetStateAction<any>>
-  valdtnlst4ad99Props: any 
-  setvaldtnlst4ad99Props: React.Dispatch<React.SetStateAction<any>>
-  valdtndatalstd58f5: any 
-  setvaldtndatalstd58f5: React.Dispatch<React.SetStateAction<any>>
-  valdtndatalstd58f5Props: any 
-  setvaldtndatalstd58f5Props: React.Dispatch<React.SetStateAction<any>>
-  cmntlst0f1ad: any 
-  setcmntlst0f1ad: React.Dispatch<React.SetStateAction<any>>
-  cmntlst0f1adProps: any 
-  setcmntlst0f1adProps: React.Dispatch<React.SetStateAction<any>>
-  cmntdatalste4cdc: any 
-  setcmntdatalste4cdc: React.Dispatch<React.SetStateAction<any>>
-  cmntdatalste4cdcProps: any 
-  setcmntdatalste4cdcProps: React.Dispatch<React.SetStateAction<any>>
-  dynamic_group_btns3c327: any 
-  setdynamic_group_btns3c327: React.Dispatch<React.SetStateAction<any>>
-  dynamic_group_btns3c327Props: any 
-  setdynamic_group_btns3c327Props: React.Dispatch<React.SetStateAction<any>>
-  text474c8: any,
-  settext474c8:React.Dispatch<React.SetStateAction<any>>
-  text474c8Props: any 
-  settext474c8Props: React.Dispatch<React.SetStateAction<any>>
-  batch_type6befb: any,
-  setbatch_type6befb:React.Dispatch<React.SetStateAction<any>>
-  batch_type6befbProps: any 
-  setbatch_type6befbProps: React.Dispatch<React.SetStateAction<any>>
-  textf1c24: any,
-  settextf1c24:React.Dispatch<React.SetStateAction<any>>
-  textf1c24Props: any 
-  settextf1c24Props: React.Dispatch<React.SetStateAction<any>>
-  variable_pay68402: any,
-  setvariable_pay68402:React.Dispatch<React.SetStateAction<any>>
-  variable_pay68402Props: any 
-  setvariable_pay68402Props: React.Dispatch<React.SetStateAction<any>>
-  inhouse0b227: any,
-  setinhouse0b227:React.Dispatch<React.SetStateAction<any>>
-  inhouse0b227Props: any 
-  setinhouse0b227Props: React.Dispatch<React.SetStateAction<any>>
-  cr_acc_no596b0: any,
-  setcr_acc_no596b0:React.Dispatch<React.SetStateAction<any>>
-  cr_acc_no596b0Props: any 
-  setcr_acc_no596b0Props: React.Dispatch<React.SetStateAction<any>>
-  cr_acc_name0589d: any,
-  setcr_acc_name0589d:React.Dispatch<React.SetStateAction<any>>
-  cr_acc_name0589dProps: any 
-  setcr_acc_name0589dProps: React.Dispatch<React.SetStateAction<any>>
-  floor_amnt59de7: any,
-  setfloor_amnt59de7:React.Dispatch<React.SetStateAction<any>>
-  floor_amnt59de7Props: any 
-  setfloor_amnt59de7Props: React.Dispatch<React.SetStateAction<any>>
-  ceiling_amntc6b28: any,
-  setceiling_amntc6b28:React.Dispatch<React.SetStateAction<any>>
-  ceiling_amntc6b28Props: any 
-  setceiling_amntc6b28Props: React.Dispatch<React.SetStateAction<any>>
-  brbanknamec54c8: any,
-  setbrbanknamec54c8:React.Dispatch<React.SetStateAction<any>>
-  brbanknamec54c8Props: any 
-  setbrbanknamec54c8Props: React.Dispatch<React.SetStateAction<any>>
-  brbranchname951ce: any,
-  setbrbranchname951ce:React.Dispatch<React.SetStateAction<any>>
-  brbranchname951ceProps: any 
-  setbrbranchname951ceProps: React.Dispatch<React.SetStateAction<any>>
-  dr_sort_code26ce5: any,
-  setdr_sort_code26ce5:React.Dispatch<React.SetStateAction<any>>
-  dr_sort_code26ce5Props: any 
-  setdr_sort_code26ce5Props: React.Dispatch<React.SetStateAction<any>>
-  currencye913a: any,
-  setcurrencye913a:React.Dispatch<React.SetStateAction<any>>
-  currencye913aProps: any 
-  setcurrencye913aProps: React.Dispatch<React.SetStateAction<any>>
-  dr_acnt_no61f56: any,
-  setdr_acnt_no61f56:React.Dispatch<React.SetStateAction<any>>
-  dr_acnt_no61f56Props: any 
-  setdr_acnt_no61f56Props: React.Dispatch<React.SetStateAction<any>>
-  dr_acnt_namee2b1e: any,
-  setdr_acnt_namee2b1e:React.Dispatch<React.SetStateAction<any>>
-  dr_acnt_namee2b1eProps: any 
-  setdr_acnt_namee2b1eProps: React.Dispatch<React.SetStateAction<any>>
-  policy_no1316f6: any,
-  setpolicy_no1316f6:React.Dispatch<React.SetStateAction<any>>
-  policy_no1316f6Props: any 
-  setpolicy_no1316f6Props: React.Dispatch<React.SetStateAction<any>>
-  policy_no2196cd: any,
-  setpolicy_no2196cd:React.Dispatch<React.SetStateAction<any>>
-  policy_no2196cdProps: any 
-  setpolicy_no2196cdProps: React.Dispatch<React.SetStateAction<any>>
-  originator_codee7d60: any,
-  setoriginator_codee7d60:React.Dispatch<React.SetStateAction<any>>
-  originator_codee7d60Props: any 
-  setoriginator_codee7d60Props: React.Dispatch<React.SetStateAction<any>>
-  frequency80676: any,
-  setfrequency80676:React.Dispatch<React.SetStateAction<any>>
-  frequency80676Props: any 
-  setfrequency80676Props: React.Dispatch<React.SetStateAction<any>>
-  duedate3cf41: any,
-  setduedate3cf41:React.Dispatch<React.SetStateAction<any>>
-  duedate3cf41Props: any 
-  setduedate3cf41Props: React.Dispatch<React.SetStateAction<any>>
-  expirydateee023: any,
-  setexpirydateee023:React.Dispatch<React.SetStateAction<any>>
-  expirydateee023Props: any 
-  setexpirydateee023Props: React.Dispatch<React.SetStateAction<any>>
-  doc_name6a955: any,
-  setdoc_name6a955:React.Dispatch<React.SetStateAction<any>>
-  doc_name6a955Props: any 
-  setdoc_name6a955Props: React.Dispatch<React.SetStateAction<any>>
-  action55349: any,
-  setaction55349:React.Dispatch<React.SetStateAction<any>>
-  action55349Props: any 
-  setaction55349Props: React.Dispatch<React.SetStateAction<any>>
-  vld_code5df31: any,
-  setvld_code5df31:React.Dispatch<React.SetStateAction<any>>
-  vld_code5df31Props: any 
-  setvld_code5df31Props: React.Dispatch<React.SetStateAction<any>>
-  vld_reason0ec55: any,
-  setvld_reason0ec55:React.Dispatch<React.SetStateAction<any>>
-  vld_reason0ec55Props: any 
-  setvld_reason0ec55Props: React.Dispatch<React.SetStateAction<any>>
-  cmnts86495: any,
-  setcmnts86495:React.Dispatch<React.SetStateAction<any>>
-  cmnts86495Props: any 
-  setcmnts86495Props: React.Dispatch<React.SetStateAction<any>>
-  action53022: any,
-  setaction53022:React.Dispatch<React.SetStateAction<any>>
-  action53022Props: any 
-  setaction53022Props: React.Dispatch<React.SetStateAction<any>>
-  mandateid05ce4: any,
-  setmandateid05ce4:React.Dispatch<React.SetStateAction<any>>
-  mandateid05ce4Props: any 
-  setmandateid05ce4Props: React.Dispatch<React.SetStateAction<any>>
-  dracntname92ac0: any,
-  setdracntname92ac0:React.Dispatch<React.SetStateAction<any>>
-  dracntname92ac0Props: any 
-  setdracntname92ac0Props: React.Dispatch<React.SetStateAction<any>>
-  dracntno42c4a: any,
-  setdracntno42c4a:React.Dispatch<React.SetStateAction<any>>
-  dracntno42c4aProps: any 
-  setdracntno42c4aProps: React.Dispatch<React.SetStateAction<any>>
-  cracntname9fdc4: any,
-  setcracntname9fdc4:React.Dispatch<React.SetStateAction<any>>
-  cracntname9fdc4Props: any 
-  setcracntname9fdc4Props: React.Dispatch<React.SetStateAction<any>>
-  cracntnoc7b4d: any,
-  setcracntnoc7b4d:React.Dispatch<React.SetStateAction<any>>
-  cracntnoc7b4dProps: any 
-  setcracntnoc7b4dProps: React.Dispatch<React.SetStateAction<any>>
-  ceilingamnt62ee2: any,
-  setceilingamnt62ee2:React.Dispatch<React.SetStateAction<any>>
-  ceilingamnt62ee2Props: any 
-  setceilingamnt62ee2Props: React.Dispatch<React.SetStateAction<any>>
-  frequency1a4a6: any,
-  setfrequency1a4a6:React.Dispatch<React.SetStateAction<any>>
-  frequency1a4a6Props: any 
-  setfrequency1a4a6Props: React.Dispatch<React.SetStateAction<any>>
-  duedate03f9a: any,
-  setduedate03f9a:React.Dispatch<React.SetStateAction<any>>
-  duedate03f9aProps: any 
-  setduedate03f9aProps: React.Dispatch<React.SetStateAction<any>>
-  expirydate3fe80: any,
-  setexpirydate3fe80:React.Dispatch<React.SetStateAction<any>>
-  expirydate3fe80Props: any 
-  setexpirydate3fe80Props: React.Dispatch<React.SetStateAction<any>>
-  status68b01: any,
-  setstatus68b01:React.Dispatch<React.SetStateAction<any>>
-  status68b01Props: any 
-  setstatus68b01Props: React.Dispatch<React.SetStateAction<any>>
-  docnamefb324: any,
-  setdocnamefb324:React.Dispatch<React.SetStateAction<any>>
-  docnamefb324Props: any 
-  setdocnamefb324Props: React.Dispatch<React.SetStateAction<any>>
-  deleted70e2: any,
-  setdeleted70e2:React.Dispatch<React.SetStateAction<any>>
-  deleted70e2Props: any 
-  setdeleted70e2Props: React.Dispatch<React.SetStateAction<any>>
-  vldcode7ab9e: any,
-  setvldcode7ab9e:React.Dispatch<React.SetStateAction<any>>
-  vldcode7ab9eProps: any 
-  setvldcode7ab9eProps: React.Dispatch<React.SetStateAction<any>>
-  vldreason6b5dc: any,
-  setvldreason6b5dc:React.Dispatch<React.SetStateAction<any>>
-  vldreason6b5dcProps: any 
-  setvldreason6b5dcProps: React.Dispatch<React.SetStateAction<any>>
-  cmnts2d060: any,
-  setcmnts2d060:React.Dispatch<React.SetStateAction<any>>
-  cmnts2d060Props: any 
-  setcmnts2d060Props: React.Dispatch<React.SetStateAction<any>>
-  scanbttn5a0f8: any,
-  setscanbttn5a0f8:React.Dispatch<React.SetStateAction<any>>
-  scanbttn5a0f8Props: any 
-  setscanbttn5a0f8Props: React.Dispatch<React.SetStateAction<any>>
-  foldescanbtn9632b: any,
-  setfoldescanbtn9632b:React.Dispatch<React.SetStateAction<any>>
-  foldescanbtn9632bProps: any 
-  setfoldescanbtn9632bProps: React.Dispatch<React.SetStateAction<any>>
-  savebuttn2c3e8: any,
-  setsavebuttn2c3e8:React.Dispatch<React.SetStateAction<any>>
-  savebuttn2c3e8Props: any 
-  setsavebuttn2c3e8Props: React.Dispatch<React.SetStateAction<any>>
-  cancelbtn74e6a: any,
-  setcancelbtn74e6a:React.Dispatch<React.SetStateAction<any>>
-  cancelbtn74e6aProps: any 
-  setcancelbtn74e6aProps: React.Dispatch<React.SetStateAction<any>>
-  update5d670: any,
-  setupdate5d670:React.Dispatch<React.SetStateAction<any>>
-  update5d670Props: any 
-  setupdate5d670Props: React.Dispatch<React.SetStateAction<any>>
-  deletebtn81d63: any,
-  setdeletebtn81d63:React.Dispatch<React.SetStateAction<any>>
-  deletebtn81d63Props: any 
-  setdeletebtn81d63Props: React.Dispatch<React.SetStateAction<any>>
-  docviewer4f7f9: any,
-  setdocviewer4f7f9:React.Dispatch<React.SetStateAction<any>>
-  docviewer4f7f9Props: any 
-  setdocviewer4f7f9Props: React.Dispatch<React.SetStateAction<any>>
+  vob_dashboard_screen9ce49: any 
+  setvob_dashboard_screen9ce49: React.Dispatch<React.SetStateAction<any>>
+  vob_dashboard_screen9ce49Props: any 
+  setvob_dashboard_screen9ce49Props: React.Dispatch<React.SetStateAction<any>>
+  most_groupc5ce0: any 
+  setmost_groupc5ce0: React.Dispatch<React.SetStateAction<any>>
+  most_groupc5ce0Props: any 
+  setmost_groupc5ce0Props: React.Dispatch<React.SetStateAction<any>>
+  active_group31e18: any 
+  setactive_group31e18: React.Dispatch<React.SetStateAction<any>>
+  active_group31e18Props: any 
+  setactive_group31e18Props: React.Dispatch<React.SetStateAction<any>>
+  req_groupdf5e7: any 
+  setreq_groupdf5e7: React.Dispatch<React.SetStateAction<any>>
+  req_groupdf5e7Props: any 
+  setreq_groupdf5e7Props: React.Dispatch<React.SetStateAction<any>>
+  error_groupcf699: any 
+  seterror_groupcf699: React.Dispatch<React.SetStateAction<any>>
+  error_groupcf699Props: any 
+  seterror_groupcf699Props: React.Dispatch<React.SetStateAction<any>>
+  line_chart_groupadc5c: any 
+  setline_chart_groupadc5c: React.Dispatch<React.SetStateAction<any>>
+  line_chart_groupadc5cProps: any 
+  setline_chart_groupadc5cProps: React.Dispatch<React.SetStateAction<any>>
+  bar_chart_group31635: any 
+  setbar_chart_group31635: React.Dispatch<React.SetStateAction<any>>
+  bar_chart_group31635Props: any 
+  setbar_chart_group31635Props: React.Dispatch<React.SetStateAction<any>>
+  api_repo_table162e4: any 
+  setapi_repo_table162e4: React.Dispatch<React.SetStateAction<any>>
+  api_repo_table162e4Props: any 
+  setapi_repo_table162e4Props: React.Dispatch<React.SetStateAction<any>>
+  api_repositoryb1ab8: any 
+  setapi_repositoryb1ab8: React.Dispatch<React.SetStateAction<any>>
+  api_repositoryb1ab8Props: any 
+  setapi_repositoryb1ab8Props: React.Dispatch<React.SetStateAction<any>>
+  connected_application17a5d: any 
+  setconnected_application17a5d: React.Dispatch<React.SetStateAction<any>>
+  connected_application17a5dProps: any 
+  setconnected_application17a5dProps: React.Dispatch<React.SetStateAction<any>>
+  api_info_groupd3ad5: any 
+  setapi_info_groupd3ad5: React.Dispatch<React.SetStateAction<any>>
+  api_info_groupd3ad5Props: any 
+  setapi_info_groupd3ad5Props: React.Dispatch<React.SetStateAction<any>>
+  info_group5e349: any 
+  setinfo_group5e349: React.Dispatch<React.SetStateAction<any>>
+  info_group5e349Props: any 
+  setinfo_group5e349Props: React.Dispatch<React.SetStateAction<any>>
+  info_summary_groupa2a0f: any 
+  setinfo_summary_groupa2a0f: React.Dispatch<React.SetStateAction<any>>
+  info_summary_groupa2a0fProps: any 
+  setinfo_summary_groupa2a0fProps: React.Dispatch<React.SetStateAction<any>>
+  api_process_log_groupff19c: any 
+  setapi_process_log_groupff19c: React.Dispatch<React.SetStateAction<any>>
+  api_process_log_groupff19cProps: any 
+  setapi_process_log_groupff19cProps: React.Dispatch<React.SetStateAction<any>>
+  api_process_log655a7: any 
+  setapi_process_log655a7: React.Dispatch<React.SetStateAction<any>>
+  api_process_log655a7Props: any 
+  setapi_process_log655a7Props: React.Dispatch<React.SetStateAction<any>>
+  consent_logs_group3070a: any 
+  setconsent_logs_group3070a: React.Dispatch<React.SetStateAction<any>>
+  consent_logs_group3070aProps: any 
+  setconsent_logs_group3070aProps: React.Dispatch<React.SetStateAction<any>>
+  consent_logs53635: any 
+  setconsent_logs53635: React.Dispatch<React.SetStateAction<any>>
+  consent_logs53635Props: any 
+  setconsent_logs53635Props: React.Dispatch<React.SetStateAction<any>>
+  api_usage_group868b4: any 
+  setapi_usage_group868b4: React.Dispatch<React.SetStateAction<any>>
+  api_usage_group868b4Props: any 
+  setapi_usage_group868b4Props: React.Dispatch<React.SetStateAction<any>>
+  total_api_calls_groupd4dee: any 
+  settotal_api_calls_groupd4dee: React.Dispatch<React.SetStateAction<any>>
+  total_api_calls_groupd4deeProps: any 
+  settotal_api_calls_groupd4deeProps: React.Dispatch<React.SetStateAction<any>>
+  api_call_over_frequency_subscreenb8acc: any 
+  setapi_call_over_frequency_subscreenb8acc: React.Dispatch<React.SetStateAction<any>>
+  api_call_over_frequency_subscreenb8accProps: any 
+  setapi_call_over_frequency_subscreenb8accProps: React.Dispatch<React.SetStateAction<any>>
+  ct009_af_uf_ufws_tob001_tob002_api_call_over_hour_v1e9bb7: any 
+  setct009_af_uf_ufws_tob001_tob002_api_call_over_hour_v1e9bb7: React.Dispatch<React.SetStateAction<any>>
+  ct009_af_uf_ufws_tob001_tob002_api_call_over_hour_v1e9bb7Props: any 
+  setct009_af_uf_ufws_tob001_tob002_api_call_over_hour_v1e9bb7Props: React.Dispatch<React.SetStateAction<any>>
+  api_call_over_hour_group12590: any 
+  setapi_call_over_hour_group12590: React.Dispatch<React.SetStateAction<any>>
+  api_call_over_hour_group12590Props: any 
+  setapi_call_over_hour_group12590Props: React.Dispatch<React.SetStateAction<any>>
+  ct009_af_uf_ufws_tob001_tob002_api_call_over_month_v1bb789: any 
+  setct009_af_uf_ufws_tob001_tob002_api_call_over_month_v1bb789: React.Dispatch<React.SetStateAction<any>>
+  ct009_af_uf_ufws_tob001_tob002_api_call_over_month_v1bb789Props: any 
+  setct009_af_uf_ufws_tob001_tob002_api_call_over_month_v1bb789Props: React.Dispatch<React.SetStateAction<any>>
+  api_call_over_month_groupd1676: any 
+  setapi_call_over_month_groupd1676: React.Dispatch<React.SetStateAction<any>>
+  api_call_over_month_groupd1676Props: any 
+  setapi_call_over_month_groupd1676Props: React.Dispatch<React.SetStateAction<any>>
+  ct009_af_uf_ufws_tob001_tob002_api_call_over_week_v1ce1f3: any 
+  setct009_af_uf_ufws_tob001_tob002_api_call_over_week_v1ce1f3: React.Dispatch<React.SetStateAction<any>>
+  ct009_af_uf_ufws_tob001_tob002_api_call_over_week_v1ce1f3Props: any 
+  setct009_af_uf_ufws_tob001_tob002_api_call_over_week_v1ce1f3Props: React.Dispatch<React.SetStateAction<any>>
+  api_call_over_week_group03bb6: any 
+  setapi_call_over_week_group03bb6: React.Dispatch<React.SetStateAction<any>>
+  api_call_over_week_group03bb6Props: any 
+  setapi_call_over_week_group03bb6Props: React.Dispatch<React.SetStateAction<any>>
+  total_used_api_groupcd37d: any 
+  settotal_used_api_groupcd37d: React.Dispatch<React.SetStateAction<any>>
+  total_used_api_groupcd37dProps: any 
+  settotal_used_api_groupcd37dProps: React.Dispatch<React.SetStateAction<any>>
+  list_of_register_tpp_groupbe9d5: any 
+  setlist_of_register_tpp_groupbe9d5: React.Dispatch<React.SetStateAction<any>>
+  list_of_register_tpp_groupbe9d5Props: any 
+  setlist_of_register_tpp_groupbe9d5Props: React.Dispatch<React.SetStateAction<any>>
+  connected_application19ab2: any 
+  setconnected_application19ab2: React.Dispatch<React.SetStateAction<any>>
+  connected_application19ab2Props: any 
+  setconnected_application19ab2Props: React.Dispatch<React.SetStateAction<any>>
+  group1233a04c: any 
+  setgroup1233a04c: React.Dispatch<React.SetStateAction<any>>
+  group1233a04cProps: any 
+  setgroup1233a04cProps: React.Dispatch<React.SetStateAction<any>>
+  group4549ff98: any 
+  setgroup4549ff98: React.Dispatch<React.SetStateAction<any>>
+  group4549ff98Props: any 
+  setgroup4549ff98Props: React.Dispatch<React.SetStateAction<any>>
+  group657d5: any 
+  setgroup657d5: React.Dispatch<React.SetStateAction<any>>
+  group657d5Props: any 
+  setgroup657d5Props: React.Dispatch<React.SetStateAction<any>>
+  group6576622ab: any 
+  setgroup6576622ab: React.Dispatch<React.SetStateAction<any>>
+  group6576622abProps: any 
+  setgroup6576622abProps: React.Dispatch<React.SetStateAction<any>>
+  group796798bff3: any 
+  setgroup796798bff3: React.Dispatch<React.SetStateAction<any>>
+  group796798bff3Props: any 
+  setgroup796798bff3Props: React.Dispatch<React.SetStateAction<any>>
+  most_used_apis72497: any,
+  setmost_used_apis72497:React.Dispatch<React.SetStateAction<any>>
+  most_used_apis72497Props: any 
+  setmost_used_apis72497Props: React.Dispatch<React.SetStateAction<any>>
+  active_apisac162: any,
+  setactive_apisac162:React.Dispatch<React.SetStateAction<any>>
+  active_apisac162Props: any 
+  setactive_apisac162Props: React.Dispatch<React.SetStateAction<any>>
+  total_requests06c5a: any,
+  settotal_requests06c5a:React.Dispatch<React.SetStateAction<any>>
+  total_requests06c5aProps: any 
+  settotal_requests06c5aProps: React.Dispatch<React.SetStateAction<any>>
+  error3d67b: any,
+  seterror3d67b:React.Dispatch<React.SetStateAction<any>>
+  error3d67bProps: any 
+  seterror3d67bProps: React.Dispatch<React.SetStateAction<any>>
+  line_chart0fe1c: any,
+  setline_chart0fe1c:React.Dispatch<React.SetStateAction<any>>
+  line_chart0fe1cProps: any 
+  setline_chart0fe1cProps: React.Dispatch<React.SetStateAction<any>>
+  barchart46476: any,
+  setbarchart46476:React.Dispatch<React.SetStateAction<any>>
+  barchart46476Props: any 
+  setbarchart46476Props: React.Dispatch<React.SetStateAction<any>>
+  apinamecccc2: any,
+  setapinamecccc2:React.Dispatch<React.SetStateAction<any>>
+  apinamecccc2Props: any 
+  setapinamecccc2Props: React.Dispatch<React.SetStateAction<any>>
+  version33b3f: any,
+  setversion33b3f:React.Dispatch<React.SetStateAction<any>>
+  version33b3fProps: any 
+  setversion33b3fProps: React.Dispatch<React.SetStateAction<any>>
+  statuscd1e6: any,
+  setstatuscd1e6:React.Dispatch<React.SetStateAction<any>>
+  statuscd1e6Props: any 
+  setstatuscd1e6Props: React.Dispatch<React.SetStateAction<any>>
+  api_category0905e: any,
+  setapi_category0905e:React.Dispatch<React.SetStateAction<any>>
+  api_category0905eProps: any 
+  setapi_category0905eProps: React.Dispatch<React.SetStateAction<any>>
+  release_date1939f: any,
+  setrelease_date1939f:React.Dispatch<React.SetStateAction<any>>
+  release_date1939fProps: any 
+  setrelease_date1939fProps: React.Dispatch<React.SetStateAction<any>>
+  view_log82d2f: any,
+  setview_log82d2f:React.Dispatch<React.SetStateAction<any>>
+  view_log82d2fProps: any 
+  setview_log82d2fProps: React.Dispatch<React.SetStateAction<any>>
+  app_name800b4: any,
+  setapp_name800b4:React.Dispatch<React.SetStateAction<any>>
+  app_name800b4Props: any 
+  setapp_name800b4Props: React.Dispatch<React.SetStateAction<any>>
+  tppname5329d: any,
+  settppname5329d:React.Dispatch<React.SetStateAction<any>>
+  tppname5329dProps: any 
+  settppname5329dProps: React.Dispatch<React.SetStateAction<any>>
+  typeb4599: any,
+  settypeb4599:React.Dispatch<React.SetStateAction<any>>
+  typeb4599Props: any 
+  settypeb4599Props: React.Dispatch<React.SetStateAction<any>>
+  status_value35b5d: any,
+  setstatus_value35b5d:React.Dispatch<React.SetStateAction<any>>
+  status_value35b5dProps: any 
+  setstatus_value35b5dProps: React.Dispatch<React.SetStateAction<any>>
+  api_info_labelc7e57: any,
+  setapi_info_labelc7e57:React.Dispatch<React.SetStateAction<any>>
+  api_info_labelc7e57Props: any 
+  setapi_info_labelc7e57Props: React.Dispatch<React.SetStateAction<any>>
+  back_button1c484: any,
+  setback_button1c484:React.Dispatch<React.SetStateAction<any>>
+  back_button1c484Props: any 
+  setback_button1c484Props: React.Dispatch<React.SetStateAction<any>>
+  global_bank33cbf: any,
+  setglobal_bank33cbf:React.Dispatch<React.SetStateAction<any>>
+  global_bank33cbfProps: any 
+  setglobal_bank33cbfProps: React.Dispatch<React.SetStateAction<any>>
+  apinamesf3b7f: any,
+  setapinamesf3b7f:React.Dispatch<React.SetStateAction<any>>
+  apinamesf3b7fProps: any 
+  setapinamesf3b7fProps: React.Dispatch<React.SetStateAction<any>>
+  versions69477: any,
+  setversions69477:React.Dispatch<React.SetStateAction<any>>
+  versions69477Props: any 
+  setversions69477Props: React.Dispatch<React.SetStateAction<any>>
+  statuss6320b: any,
+  setstatuss6320b:React.Dispatch<React.SetStateAction<any>>
+  statuss6320bProps: any 
+  setstatuss6320bProps: React.Dispatch<React.SetStateAction<any>>
+  api_categorys43935: any,
+  setapi_categorys43935:React.Dispatch<React.SetStateAction<any>>
+  api_categorys43935Props: any 
+  setapi_categorys43935Props: React.Dispatch<React.SetStateAction<any>>
+  release_datesd97a1: any,
+  setrelease_datesd97a1:React.Dispatch<React.SetStateAction<any>>
+  release_datesd97a1Props: any 
+  setrelease_datesd97a1Props: React.Dispatch<React.SetStateAction<any>>
+  api_resource_paths6c67f: any,
+  setapi_resource_paths6c67f:React.Dispatch<React.SetStateAction<any>>
+  api_resource_paths6c67fProps: any 
+  setapi_resource_paths6c67fProps: React.Dispatch<React.SetStateAction<any>>
+  apiname45fa8: any,
+  setapiname45fa8:React.Dispatch<React.SetStateAction<any>>
+  apiname45fa8Props: any 
+  setapiname45fa8Props: React.Dispatch<React.SetStateAction<any>>
+  versiona736c: any,
+  setversiona736c:React.Dispatch<React.SetStateAction<any>>
+  versiona736cProps: any 
+  setversiona736cProps: React.Dispatch<React.SetStateAction<any>>
+  statusddf07: any,
+  setstatusddf07:React.Dispatch<React.SetStateAction<any>>
+  statusddf07Props: any 
+  setstatusddf07Props: React.Dispatch<React.SetStateAction<any>>
+  api_category95348: any,
+  setapi_category95348:React.Dispatch<React.SetStateAction<any>>
+  api_category95348Props: any 
+  setapi_category95348Props: React.Dispatch<React.SetStateAction<any>>
+  release_dateb41fc: any,
+  setrelease_dateb41fc:React.Dispatch<React.SetStateAction<any>>
+  release_dateb41fcProps: any 
+  setrelease_dateb41fcProps: React.Dispatch<React.SetStateAction<any>>
+  api_resourcepath88fa9: any,
+  setapi_resourcepath88fa9:React.Dispatch<React.SetStateAction<any>>
+  api_resourcepath88fa9Props: any 
+  setapi_resourcepath88fa9Props: React.Dispatch<React.SetStateAction<any>>
+  total_calls5c0ea: any,
+  settotal_calls5c0ea:React.Dispatch<React.SetStateAction<any>>
+  total_calls5c0eaProps: any 
+  settotal_calls5c0eaProps: React.Dispatch<React.SetStateAction<any>>
+  success_rateee58b: any,
+  setsuccess_rateee58b:React.Dispatch<React.SetStateAction<any>>
+  success_rateee58bProps: any 
+  setsuccess_rateee58bProps: React.Dispatch<React.SetStateAction<any>>
+  error_rate960d3: any,
+  seterror_rate960d3:React.Dispatch<React.SetStateAction<any>>
+  error_rate960d3Props: any 
+  seterror_rate960d3Props: React.Dispatch<React.SetStateAction<any>>
+  text1bd13: any,
+  settext1bd13:React.Dispatch<React.SetStateAction<any>>
+  text1bd13Props: any 
+  settext1bd13Props: React.Dispatch<React.SetStateAction<any>>
+  trs_created_date93619: any,
+  settrs_created_date93619:React.Dispatch<React.SetStateAction<any>>
+  trs_created_date93619Props: any 
+  settrs_created_date93619Props: React.Dispatch<React.SetStateAction<any>>
+  requestdata1d4f4: any,
+  setrequestdata1d4f4:React.Dispatch<React.SetStateAction<any>>
+  requestdata1d4f4Props: any 
+  setrequestdata1d4f4Props: React.Dispatch<React.SetStateAction<any>>
+  responsedata35a3f: any,
+  setresponsedata35a3f:React.Dispatch<React.SetStateAction<any>>
+  responsedata35a3fProps: any 
+  setresponsedata35a3fProps: React.Dispatch<React.SetStateAction<any>>
+  tob_consent_requestid80eee: any,
+  settob_consent_requestid80eee:React.Dispatch<React.SetStateAction<any>>
+  tob_consent_requestid80eeeProps: any 
+  settob_consent_requestid80eeeProps: React.Dispatch<React.SetStateAction<any>>
+  view_logs3bb2b: any,
+  setview_logs3bb2b:React.Dispatch<React.SetStateAction<any>>
+  view_logs3bb2bProps: any 
+  setview_logs3bb2bProps: React.Dispatch<React.SetStateAction<any>>
+  textfe486: any,
+  settextfe486:React.Dispatch<React.SetStateAction<any>>
+  textfe486Props: any 
+  settextfe486Props: React.Dispatch<React.SetStateAction<any>>
+  request_consent_baseconsentid4221e: any,
+  setrequest_consent_baseconsentid4221e:React.Dispatch<React.SetStateAction<any>>
+  request_consent_baseconsentid4221eProps: any 
+  setrequest_consent_baseconsentid4221eProps: React.Dispatch<React.SetStateAction<any>>
+  interactionid5cd91: any,
+  setinteractionid5cd91:React.Dispatch<React.SetStateAction<any>>
+  interactionid5cd91Props: any 
+  setinteractionid5cd91Props: React.Dispatch<React.SetStateAction<any>>
+  request_consent_permissions1448d: any,
+  setrequest_consent_permissions1448d:React.Dispatch<React.SetStateAction<any>>
+  request_consent_permissions1448dProps: any 
+  setrequest_consent_permissions1448dProps: React.Dispatch<React.SetStateAction<any>>
+  consentbody_data_revokedby6ede9: any,
+  setconsentbody_data_revokedby6ede9:React.Dispatch<React.SetStateAction<any>>
+  consentbody_data_revokedby6ede9Props: any 
+  setconsentbody_data_revokedby6ede9Props: React.Dispatch<React.SetStateAction<any>>
+  request_consent_expiratriondatetime3ba51: any,
+  setrequest_consent_expiratriondatetime3ba51:React.Dispatch<React.SetStateAction<any>>
+  request_consent_expiratriondatetime3ba51Props: any 
+  setrequest_consent_expiratriondatetime3ba51Props: React.Dispatch<React.SetStateAction<any>>
+  status61386: any,
+  setstatus61386:React.Dispatch<React.SetStateAction<any>>
+  status61386Props: any 
+  setstatus61386Props: React.Dispatch<React.SetStateAction<any>>
+  api_usage_overviewecc9e: any,
+  setapi_usage_overviewecc9e:React.Dispatch<React.SetStateAction<any>>
+  api_usage_overviewecc9eProps: any 
+  setapi_usage_overviewecc9eProps: React.Dispatch<React.SetStateAction<any>>
+  tot_req_icon1fa8f: any,
+  settot_req_icon1fa8f:React.Dispatch<React.SetStateAction<any>>
+  tot_req_icon1fa8fProps: any 
+  settot_req_icon1fa8fProps: React.Dispatch<React.SetStateAction<any>>
+  active_icon42af9: any,
+  setactive_icon42af9:React.Dispatch<React.SetStateAction<any>>
+  active_icon42af9Props: any 
+  setactive_icon42af9Props: React.Dispatch<React.SetStateAction<any>>
+  most_used_apis2686b: any,
+  setmost_used_apis2686b:React.Dispatch<React.SetStateAction<any>>
+  most_used_apis2686bProps: any 
+  setmost_used_apis2686bProps: React.Dispatch<React.SetStateAction<any>>
+  most_used_api_icon6560d: any,
+  setmost_used_api_icon6560d:React.Dispatch<React.SetStateAction<any>>
+  most_used_api_icon6560dProps: any 
+  setmost_used_api_icon6560dProps: React.Dispatch<React.SetStateAction<any>>
+  error_rate72497: any,
+  seterror_rate72497:React.Dispatch<React.SetStateAction<any>>
+  error_rate72497Props: any 
+  seterror_rate72497Props: React.Dispatch<React.SetStateAction<any>>
+  error_rate_icon89a9a: any,
+  seterror_rate_icon89a9a:React.Dispatch<React.SetStateAction<any>>
+  error_rate_icon89a9aProps: any 
+  seterror_rate_icon89a9aProps: React.Dispatch<React.SetStateAction<any>>
+  api_call_hours6d062: any,
+  setapi_call_hours6d062:React.Dispatch<React.SetStateAction<any>>
+  api_call_hours6d062Props: any 
+  setapi_call_hours6d062Props: React.Dispatch<React.SetStateAction<any>>
+  api_call_hours_dropdown5f803: any,
+  setapi_call_hours_dropdown5f803:React.Dispatch<React.SetStateAction<any>>
+  api_call_hours_dropdown5f803Props: any 
+  setapi_call_hours_dropdown5f803Props: React.Dispatch<React.SetStateAction<any>>
+  api_call_over_hour_linechart38cfd: any,
+  setapi_call_over_hour_linechart38cfd:React.Dispatch<React.SetStateAction<any>>
+  api_call_over_hour_linechart38cfdProps: any 
+  setapi_call_over_hour_linechart38cfdProps: React.Dispatch<React.SetStateAction<any>>
+  api_call_over_month_linechartcc886: any,
+  setapi_call_over_month_linechartcc886:React.Dispatch<React.SetStateAction<any>>
+  api_call_over_month_linechartcc886Props: any 
+  setapi_call_over_month_linechartcc886Props: React.Dispatch<React.SetStateAction<any>>
+  week_linechart709e7: any,
+  setweek_linechart709e7:React.Dispatch<React.SetStateAction<any>>
+  week_linechart709e7Props: any 
+  setweek_linechart709e7Props: React.Dispatch<React.SetStateAction<any>>
+  total_used_api_text0681a: any,
+  settotal_used_api_text0681a:React.Dispatch<React.SetStateAction<any>>
+  total_used_api_text0681aProps: any 
+  settotal_used_api_text0681aProps: React.Dispatch<React.SetStateAction<any>>
+  get_accounts_textded93: any,
+  setget_accounts_textded93:React.Dispatch<React.SetStateAction<any>>
+  get_accounts_textded93Props: any 
+  setget_accounts_textded93Props: React.Dispatch<React.SetStateAction<any>>
+  get_acc_progressf3140: any,
+  setget_acc_progressf3140:React.Dispatch<React.SetStateAction<any>>
+  get_acc_progressf3140Props: any 
+  setget_acc_progressf3140Props: React.Dispatch<React.SetStateAction<any>>
+  get_account_id_textcfcd9: any,
+  setget_account_id_textcfcd9:React.Dispatch<React.SetStateAction<any>>
+  get_account_id_textcfcd9Props: any 
+  setget_account_id_textcfcd9Props: React.Dispatch<React.SetStateAction<any>>
+  get_acc_id_progress564cc: any,
+  setget_acc_id_progress564cc:React.Dispatch<React.SetStateAction<any>>
+  get_acc_id_progress564ccProps: any 
+  setget_acc_id_progress564ccProps: React.Dispatch<React.SetStateAction<any>>
+  get_balance_textc22b2: any,
+  setget_balance_textc22b2:React.Dispatch<React.SetStateAction<any>>
+  get_balance_textc22b2Props: any 
+  setget_balance_textc22b2Props: React.Dispatch<React.SetStateAction<any>>
+  get_balance_progressa0d54: any,
+  setget_balance_progressa0d54:React.Dispatch<React.SetStateAction<any>>
+  get_balance_progressa0d54Props: any 
+  setget_balance_progressa0d54Props: React.Dispatch<React.SetStateAction<any>>
+  get_direct_debits_text067ca: any,
+  setget_direct_debits_text067ca:React.Dispatch<React.SetStateAction<any>>
+  get_direct_debits_text067caProps: any 
+  setget_direct_debits_text067caProps: React.Dispatch<React.SetStateAction<any>>
+  get_direct_debits_progress04032: any,
+  setget_direct_debits_progress04032:React.Dispatch<React.SetStateAction<any>>
+  get_direct_debits_progress04032Props: any 
+  setget_direct_debits_progress04032Props: React.Dispatch<React.SetStateAction<any>>
+  products_textc39eb: any,
+  setproducts_textc39eb:React.Dispatch<React.SetStateAction<any>>
+  products_textc39ebProps: any 
+  setproducts_textc39ebProps: React.Dispatch<React.SetStateAction<any>>
+  product_progressee376: any,
+  setproduct_progressee376:React.Dispatch<React.SetStateAction<any>>
+  product_progressee376Props: any 
+  setproduct_progressee376Props: React.Dispatch<React.SetStateAction<any>>
+  app_namedc4c5: any,
+  setapp_namedc4c5:React.Dispatch<React.SetStateAction<any>>
+  app_namedc4c5Props: any 
+  setapp_namedc4c5Props: React.Dispatch<React.SetStateAction<any>>
+  tppname5b032: any,
+  settppname5b032:React.Dispatch<React.SetStateAction<any>>
+  tppname5b032Props: any 
+  settppname5b032Props: React.Dispatch<React.SetStateAction<any>>
+  typed4eac: any,
+  settyped4eac:React.Dispatch<React.SetStateAction<any>>
+  typed4eacProps: any 
+  settyped4eacProps: React.Dispatch<React.SetStateAction<any>>
+  status_value3beb3: any,
+  setstatus_value3beb3:React.Dispatch<React.SetStateAction<any>>
+  status_value3beb3Props: any 
+  setstatus_value3beb3Props: React.Dispatch<React.SetStateAction<any>>
+  consent_lifecycles11691: any,
+  setconsent_lifecycles11691:React.Dispatch<React.SetStateAction<any>>
+  consent_lifecycles11691Props: any 
+  setconsent_lifecycles11691Props: React.Dispatch<React.SetStateAction<any>>
+  text45645c95a7: any,
+  settext45645c95a7:React.Dispatch<React.SetStateAction<any>>
+  text45645c95a7Props: any 
+  settext45645c95a7Props: React.Dispatch<React.SetStateAction<any>>
+  icon56454d73c: any,
+  seticon56454d73c:React.Dispatch<React.SetStateAction<any>>
+  icon56454d73cProps: any 
+  seticon56454d73cProps: React.Dispatch<React.SetStateAction<any>>
+  text23523e7140: any,
+  settext23523e7140:React.Dispatch<React.SetStateAction<any>>
+  text23523e7140Props: any 
+  settext23523e7140Props: React.Dispatch<React.SetStateAction<any>>
+  text454513feb: any,
+  settext454513feb:React.Dispatch<React.SetStateAction<any>>
+  text454513febProps: any 
+  settext454513febProps: React.Dispatch<React.SetStateAction<any>>
+  icon5675ee8ba: any,
+  seticon5675ee8ba:React.Dispatch<React.SetStateAction<any>>
+  icon5675ee8baProps: any 
+  seticon5675ee8baProps: React.Dispatch<React.SetStateAction<any>>
+  text4564580602: any,
+  settext4564580602:React.Dispatch<React.SetStateAction<any>>
+  text4564580602Props: any 
+  settext4564580602Props: React.Dispatch<React.SetStateAction<any>>
+  textwrwer0e4e1: any,
+  settextwrwer0e4e1:React.Dispatch<React.SetStateAction<any>>
+  textwrwer0e4e1Props: any 
+  settextwrwer0e4e1Props: React.Dispatch<React.SetStateAction<any>>
+  icon234234e2c9a: any,
+  seticon234234e2c9a:React.Dispatch<React.SetStateAction<any>>
+  icon234234e2c9aProps: any 
+  seticon234234e2c9aProps: React.Dispatch<React.SetStateAction<any>>
+  textwerweraf6e8: any,
+  settextwerweraf6e8:React.Dispatch<React.SetStateAction<any>>
+  textwerweraf6e8Props: any 
+  settextwerweraf6e8Props: React.Dispatch<React.SetStateAction<any>>
+  text3457254757f70: any,
+  settext3457254757f70:React.Dispatch<React.SetStateAction<any>>
+  text3457254757f70Props: any 
+  settext3457254757f70Props: React.Dispatch<React.SetStateAction<any>>
+  icon86986b1a3: any,
+  seticon86986b1a3:React.Dispatch<React.SetStateAction<any>>
+  icon86986b1a3Props: any 
+  seticon86986b1a3Props: React.Dispatch<React.SetStateAction<any>>
+  text2668f: any,
+  settext2668f:React.Dispatch<React.SetStateAction<any>>
+  text2668fProps: any 
+  settext2668fProps: React.Dispatch<React.SetStateAction<any>>
 
 ////// screen states 
-  mms_mandate_info_v1Props: any 
-  setmms_mandate_info_v1Props: React.Dispatch<React.SetStateAction<any>>
+  vob_dashboard_screen_v1Props: any 
+  setvob_dashboard_screen_v1Props: React.Dispatch<React.SetStateAction<any>>
+  vob_api_info_v1Props: any 
+  setvob_api_info_v1Props: React.Dispatch<React.SetStateAction<any>>
+  vob_consents_log_v1Props: any 
+  setvob_consents_log_v1Props: React.Dispatch<React.SetStateAction<any>>
+  vob_dashboard_design_v1Props: any 
+  setvob_dashboard_design_v1Props: React.Dispatch<React.SetStateAction<any>>
 
 ///////// dfd
-  dfd_subscreen_db_v1Props: any 
-  setdfd_subscreen_db_v1Props: React.Dispatch<React.SetStateAction<any>>
-  dfd_combo_subscreen_db_v1Props: any 
-  setdfd_combo_subscreen_db_v1Props: React.Dispatch<React.SetStateAction<any>>
-  dfd_mandate_error_lst_db_v1Props: any 
-  setdfd_mandate_error_lst_db_v1Props: React.Dispatch<React.SetStateAction<any>>
-  dfd_mandate_doc_lst_db_v1Props: any 
-  setdfd_mandate_doc_lst_db_v1Props: React.Dispatch<React.SetStateAction<any>>
-  dfd_mandate_list_db_v1Props: any 
-  setdfd_mandate_list_db_v1Props: React.Dispatch<React.SetStateAction<any>>
+  dfd_tob_consent_request_ca_dfd_v1Props: any 
+  setdfd_tob_consent_request_ca_dfd_v1Props: React.Dispatch<React.SetStateAction<any>>
+  dfd_mongo_totalcalls_dfd_v1Props: any 
+  setdfd_mongo_totalcalls_dfd_v1Props: React.Dispatch<React.SetStateAction<any>>
+  dfd_mongo_api_repository_dfd_v1Props: any 
+  setdfd_mongo_api_repository_dfd_v1Props: React.Dispatch<React.SetStateAction<any>>
+  dfd_mongodb_api_process_logs_dfd_v1Props: any 
+  setdfd_mongodb_api_process_logs_dfd_v1Props: React.Dispatch<React.SetStateAction<any>>
+  dfd_mongodb_maindashboard_dfd_v1Props: any 
+  setdfd_mongodb_maindashboard_dfd_v1Props: React.Dispatch<React.SetStateAction<any>>
+  dfd_tob_consents_request_dfd_v1Props: any 
+  setdfd_tob_consents_request_dfd_v1Props: React.Dispatch<React.SetStateAction<any>>
+  dfd_mongo_barchart_dfd_v1Props: any 
+  setdfd_mongo_barchart_dfd_v1Props: React.Dispatch<React.SetStateAction<any>>
+  dfd_mongo_linechart_dfd_v1Props: any 
+  setdfd_mongo_linechart_dfd_v1Props: React.Dispatch<React.SetStateAction<any>>
+  dfd_tob_total_used_api_dfd_v1Props: any 
+  setdfd_tob_total_used_api_dfd_v1Props: React.Dispatch<React.SetStateAction<any>>
 
   refetch: any,
   setRefetch: React.Dispatch<React.SetStateAction<any>>
@@ -368,8 +566,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
     const [matchedAccessProfileData, setMatchedAccessProfileData] =
     React.useState<any>({})
       //////////
-        const [overallgroup00e53, setoverallgroup00e53 ] = React.useState<any>({}) 
-    const [overallgroup00e53Props, setoverallgroup00e53Props ] = React.useState<any>({
+        const [vob_dashboard_screen9ce49, setvob_dashboard_screen9ce49 ] = React.useState<any>({}) 
+    const [vob_dashboard_screen9ce49Props, setvob_dashboard_screen9ce49Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -379,8 +577,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       isHidden: false,
       selectedIds:[]
       }) 
-        const [mandatedtls2cb9f, setmandatedtls2cb9f ] = React.useState<any>({}) 
-    const [mandatedtls2cb9fProps, setmandatedtls2cb9fProps ] = React.useState<any>({
+        const [most_groupc5ce0, setmost_groupc5ce0 ] = React.useState<any>({}) 
+    const [most_groupc5ce0Props, setmost_groupc5ce0Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -390,8 +588,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       isHidden: false,
       selectedIds:[]
       }) 
-        const [mandateinfo1b809, setmandateinfo1b809 ] = React.useState<any>({}) 
-    const [mandateinfo1b809Props, setmandateinfo1b809Props ] = React.useState<any>({
+        const [active_group31e18, setactive_group31e18 ] = React.useState<any>({}) 
+    const [active_group31e18Props, setactive_group31e18Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -401,8 +599,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       isHidden: false,
       selectedIds:[]
       }) 
-        const [mnssubgroup3df12, setmnssubgroup3df12 ] = React.useState<any>({}) 
-    const [mnssubgroup3df12Props, setmnssubgroup3df12Props ] = React.useState<any>({
+        const [req_groupdf5e7, setreq_groupdf5e7 ] = React.useState<any>({}) 
+    const [req_groupdf5e7Props, setreq_groupdf5e7Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -412,8 +610,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       isHidden: false,
       selectedIds:[]
       }) 
-        const [ct005_af_uf_ufws_v001_mms_mandate_subscreen2_v1a54b9, setct005_af_uf_ufws_v001_mms_mandate_subscreen2_v1a54b9 ] = React.useState<any>({}) 
-    const [ct005_af_uf_ufws_v001_mms_mandate_subscreen2_v1a54b9Props, setct005_af_uf_ufws_v001_mms_mandate_subscreen2_v1a54b9Props ] = React.useState<any>({
+        const [error_groupcf699, seterror_groupcf699 ] = React.useState<any>({}) 
+    const [error_groupcf699Props, seterror_groupcf699Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -423,8 +621,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       isHidden: false,
       selectedIds:[]
       }) 
-        const [mndate_common_info3fb9d, setmndate_common_info3fb9d ] = React.useState<any>({}) 
-    const [mndate_common_info3fb9dProps, setmndate_common_info3fb9dProps ] = React.useState<any>({
+        const [line_chart_groupadc5c, setline_chart_groupadc5c ] = React.useState<any>({}) 
+    const [line_chart_groupadc5cProps, setline_chart_groupadc5cProps ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -434,8 +632,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       isHidden: false,
       selectedIds:[]
       }) 
-        const [mndate_basic_sub_screenc9573, setmndate_basic_sub_screenc9573 ] = React.useState<any>({}) 
-    const [mndate_basic_sub_screenc9573Props, setmndate_basic_sub_screenc9573Props ] = React.useState<any>({
+        const [bar_chart_group31635, setbar_chart_group31635 ] = React.useState<any>({}) 
+    const [bar_chart_group31635Props, setbar_chart_group31635Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -445,41 +643,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       isHidden: false,
       selectedIds:[]
       }) 
-        const [ct005_af_uf_ufws_v001_mms_mandate_subscreen_v12764c, setct005_af_uf_ufws_v001_mms_mandate_subscreen_v12764c ] = React.useState<any>({}) 
-    const [ct005_af_uf_ufws_v001_mms_mandate_subscreen_v12764cProps, setct005_af_uf_ufws_v001_mms_mandate_subscreen_v12764cProps ] = React.useState<any>({
-      validation:false,
-      required:false,
-      refetch:false,
-      refresh:false,
-      isDisabled: false,
-      presetValues: '',
-      isHidden: false,
-      selectedIds:[]
-      }) 
-        const [subgroup7f52e, setsubgroup7f52e ] = React.useState<any>({}) 
-    const [subgroup7f52eProps, setsubgroup7f52eProps ] = React.useState<any>({
-      validation:false,
-      required:false,
-      refetch:false,
-      refresh:false,
-      isDisabled: false,
-      presetValues: '',
-      isHidden: false,
-      selectedIds:[]
-      }) 
-        const [mandate_data_tabb1bce, setmandate_data_tabb1bce ] = React.useState<any>({}) 
-    const [mandate_data_tabb1bceProps, setmandate_data_tabb1bceProps ] = React.useState<any>({
-      validation:false,
-      required:false,
-      refetch:false,
-      refresh:false,
-      isDisabled: false,
-      presetValues: '',
-      isHidden: false,
-      selectedIds:[]
-      }) 
-        const [document_lst2adea, setdocument_lst2adea ] = React.useState<any>({}) 
-    const [document_lst2adeaProps, setdocument_lst2adeaProps ] = React.useState<any>({
+        const [api_repo_table162e4, setapi_repo_table162e4 ] = React.useState<any>({}) 
+    const [api_repo_table162e4Props, setapi_repo_table162e4Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -490,8 +655,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       selectedIds:[]
       }) 
     
-    const [doc_data_lst1fd5c, setdoc_data_lst1fd5c ] = React.useState<any>([]) 
-    const [doc_data_lst1fd5cProps, setdoc_data_lst1fd5cProps ] = React.useState<any>({
+    const [api_repositoryb1ab8, setapi_repositoryb1ab8 ] = React.useState<any>([]) 
+    const [api_repositoryb1ab8Props, setapi_repositoryb1ab8Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -501,8 +666,53 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       selectedIds:[],
       refresh:false,
       }) 
-        const [validation_lst771f5, setvalidation_lst771f5 ] = React.useState<any>({}) 
-    const [validation_lst771f5Props, setvalidation_lst771f5Props ] = React.useState<any>({
+    
+    const [connected_application17a5d, setconnected_application17a5d ] = React.useState<any>([]) 
+    const [connected_application17a5dProps, setconnected_application17a5dProps ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[],
+      refresh:false,
+      }) 
+        const [api_info_groupd3ad5, setapi_info_groupd3ad5 ] = React.useState<any>({}) 
+    const [api_info_groupd3ad5Props, setapi_info_groupd3ad5Props ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      refresh:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[]
+      }) 
+        const [info_group5e349, setinfo_group5e349 ] = React.useState<any>({}) 
+    const [info_group5e349Props, setinfo_group5e349Props ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      refresh:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[]
+      }) 
+        const [info_summary_groupa2a0f, setinfo_summary_groupa2a0f ] = React.useState<any>({}) 
+    const [info_summary_groupa2a0fProps, setinfo_summary_groupa2a0fProps ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      refresh:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[]
+      }) 
+        const [api_process_log_groupff19c, setapi_process_log_groupff19c ] = React.useState<any>({}) 
+    const [api_process_log_groupff19cProps, setapi_process_log_groupff19cProps ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -513,8 +723,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       selectedIds:[]
       }) 
     
-    const [valdtn_data_lst378bc, setvaldtn_data_lst378bc ] = React.useState<any>([]) 
-    const [valdtn_data_lst378bcProps, setvaldtn_data_lst378bcProps ] = React.useState<any>({
+    const [api_process_log655a7, setapi_process_log655a7 ] = React.useState<any>([]) 
+    const [api_process_log655a7Props, setapi_process_log655a7Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -524,8 +734,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       selectedIds:[],
       refresh:false,
       }) 
-        const [comment_lst2b2ca, setcomment_lst2b2ca ] = React.useState<any>({}) 
-    const [comment_lst2b2caProps, setcomment_lst2b2caProps ] = React.useState<any>({
+        const [consent_logs_group3070a, setconsent_logs_group3070a ] = React.useState<any>({}) 
+    const [consent_logs_group3070aProps, setconsent_logs_group3070aProps ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -536,8 +746,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       selectedIds:[]
       }) 
     
-    const [cmnt_data_lste3582, setcmnt_data_lste3582 ] = React.useState<any>([]) 
-    const [cmnt_data_lste3582Props, setcmnt_data_lste3582Props ] = React.useState<any>({
+    const [consent_logs53635, setconsent_logs53635 ] = React.useState<any>([]) 
+    const [consent_logs53635Props, setconsent_logs53635Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -547,8 +757,118 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       selectedIds:[],
       refresh:false,
       }) 
-        const [mandatelstc0e2c, setmandatelstc0e2c ] = React.useState<any>({}) 
-    const [mandatelstc0e2cProps, setmandatelstc0e2cProps ] = React.useState<any>({
+        const [api_usage_group868b4, setapi_usage_group868b4 ] = React.useState<any>({}) 
+    const [api_usage_group868b4Props, setapi_usage_group868b4Props ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      refresh:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[]
+      }) 
+        const [total_api_calls_groupd4dee, settotal_api_calls_groupd4dee ] = React.useState<any>({}) 
+    const [total_api_calls_groupd4deeProps, settotal_api_calls_groupd4deeProps ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      refresh:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[]
+      }) 
+        const [api_call_over_frequency_subscreenb8acc, setapi_call_over_frequency_subscreenb8acc ] = React.useState<any>({}) 
+    const [api_call_over_frequency_subscreenb8accProps, setapi_call_over_frequency_subscreenb8accProps ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      refresh:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[]
+      }) 
+        const [ct009_af_uf_ufws_tob001_tob002_api_call_over_hour_v1e9bb7, setct009_af_uf_ufws_tob001_tob002_api_call_over_hour_v1e9bb7 ] = React.useState<any>({}) 
+    const [ct009_af_uf_ufws_tob001_tob002_api_call_over_hour_v1e9bb7Props, setct009_af_uf_ufws_tob001_tob002_api_call_over_hour_v1e9bb7Props ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      refresh:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[]
+      }) 
+        const [api_call_over_hour_group12590, setapi_call_over_hour_group12590 ] = React.useState<any>({}) 
+    const [api_call_over_hour_group12590Props, setapi_call_over_hour_group12590Props ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      refresh:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[]
+      }) 
+        const [ct009_af_uf_ufws_tob001_tob002_api_call_over_month_v1bb789, setct009_af_uf_ufws_tob001_tob002_api_call_over_month_v1bb789 ] = React.useState<any>({}) 
+    const [ct009_af_uf_ufws_tob001_tob002_api_call_over_month_v1bb789Props, setct009_af_uf_ufws_tob001_tob002_api_call_over_month_v1bb789Props ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      refresh:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[]
+      }) 
+        const [api_call_over_month_groupd1676, setapi_call_over_month_groupd1676 ] = React.useState<any>({}) 
+    const [api_call_over_month_groupd1676Props, setapi_call_over_month_groupd1676Props ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      refresh:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[]
+      }) 
+        const [ct009_af_uf_ufws_tob001_tob002_api_call_over_week_v1ce1f3, setct009_af_uf_ufws_tob001_tob002_api_call_over_week_v1ce1f3 ] = React.useState<any>({}) 
+    const [ct009_af_uf_ufws_tob001_tob002_api_call_over_week_v1ce1f3Props, setct009_af_uf_ufws_tob001_tob002_api_call_over_week_v1ce1f3Props ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      refresh:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[]
+      }) 
+        const [api_call_over_week_group03bb6, setapi_call_over_week_group03bb6 ] = React.useState<any>({}) 
+    const [api_call_over_week_group03bb6Props, setapi_call_over_week_group03bb6Props ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      refresh:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[]
+      }) 
+        const [total_used_api_groupcd37d, settotal_used_api_groupcd37d ] = React.useState<any>({}) 
+    const [total_used_api_groupcd37dProps, settotal_used_api_groupcd37dProps ] = React.useState<any>({
+      validation:false,
+      required:false,
+      refetch:false,
+      refresh:false,
+      isDisabled: false,
+      presetValues: '',
+      isHidden: false,
+      selectedIds:[]
+      }) 
+        const [list_of_register_tpp_groupbe9d5, setlist_of_register_tpp_groupbe9d5 ] = React.useState<any>({}) 
+    const [list_of_register_tpp_groupbe9d5Props, setlist_of_register_tpp_groupbe9d5Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -559,8 +879,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       selectedIds:[]
       }) 
     
-    const [mandatedatalst46c27, setmandatedatalst46c27 ] = React.useState<any>([]) 
-    const [mandatedatalst46c27Props, setmandatedatalst46c27Props ] = React.useState<any>({
+    const [connected_application19ab2, setconnected_application19ab2 ] = React.useState<any>([]) 
+    const [connected_application19ab2Props, setconnected_application19ab2Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -570,8 +890,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       selectedIds:[],
       refresh:false,
       }) 
-        const [listgroup6f63e, setlistgroup6f63e ] = React.useState<any>({}) 
-    const [listgroup6f63eProps, setlistgroup6f63eProps ] = React.useState<any>({
+        const [group1233a04c, setgroup1233a04c ] = React.useState<any>({}) 
+    const [group1233a04cProps, setgroup1233a04cProps ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -581,8 +901,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       isHidden: false,
       selectedIds:[]
       }) 
-        const [doclst42d30, setdoclst42d30 ] = React.useState<any>({}) 
-    const [doclst42d30Props, setdoclst42d30Props ] = React.useState<any>({
+        const [group4549ff98, setgroup4549ff98 ] = React.useState<any>({}) 
+    const [group4549ff98Props, setgroup4549ff98Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -592,20 +912,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       isHidden: false,
       selectedIds:[]
       }) 
-    
-    const [docdatalst620a8, setdocdatalst620a8 ] = React.useState<any>([]) 
-    const [docdatalst620a8Props, setdocdatalst620a8Props ] = React.useState<any>({
-      validation:false,
-      required:false,
-      refetch:false,
-      isDisabled: false,
-      presetValues: '',
-      isHidden: false,
-      selectedIds:[],
-      refresh:false,
-      }) 
-        const [valdtnlst4ad99, setvaldtnlst4ad99 ] = React.useState<any>({}) 
-    const [valdtnlst4ad99Props, setvaldtnlst4ad99Props ] = React.useState<any>({
+        const [group657d5, setgroup657d5 ] = React.useState<any>({}) 
+    const [group657d5Props, setgroup657d5Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -615,20 +923,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       isHidden: false,
       selectedIds:[]
       }) 
-    
-    const [valdtndatalstd58f5, setvaldtndatalstd58f5 ] = React.useState<any>([]) 
-    const [valdtndatalstd58f5Props, setvaldtndatalstd58f5Props ] = React.useState<any>({
-      validation:false,
-      required:false,
-      refetch:false,
-      isDisabled: false,
-      presetValues: '',
-      isHidden: false,
-      selectedIds:[],
-      refresh:false,
-      }) 
-        const [cmntlst0f1ad, setcmntlst0f1ad ] = React.useState<any>({}) 
-    const [cmntlst0f1adProps, setcmntlst0f1adProps ] = React.useState<any>({
+        const [group6576622ab, setgroup6576622ab ] = React.useState<any>({}) 
+    const [group6576622abProps, setgroup6576622abProps ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -638,20 +934,8 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       isHidden: false,
       selectedIds:[]
       }) 
-    
-    const [cmntdatalste4cdc, setcmntdatalste4cdc ] = React.useState<any>([]) 
-    const [cmntdatalste4cdcProps, setcmntdatalste4cdcProps ] = React.useState<any>({
-      validation:false,
-      required:false,
-      refetch:false,
-      isDisabled: false,
-      presetValues: '',
-      isHidden: false,
-      selectedIds:[],
-      refresh:false,
-      }) 
-        const [dynamic_group_btns3c327, setdynamic_group_btns3c327 ] = React.useState<any>({}) 
-    const [dynamic_group_btns3c327Props, setdynamic_group_btns3c327Props ] = React.useState<any>({
+        const [group796798bff3, setgroup796798bff3 ] = React.useState<any>({}) 
+    const [group796798bff3Props, setgroup796798bff3Props ] = React.useState<any>({
       validation:false,
       required:false,
       refetch:false,
@@ -661,343 +945,609 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
       isHidden: false,
       selectedIds:[]
       }) 
-   const [text474c8,settext474c8] = React.useState<any>({
+   const [most_used_apis72497,setmost_used_apis72497] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [batch_type6befb,setbatch_type6befb] = React.useState<any>({
+   const [active_apisac162,setactive_apisac162] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [textf1c24,settextf1c24] = React.useState<any>({
+   const [total_requests06c5a,settotal_requests06c5a] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [variable_pay68402,setvariable_pay68402] = React.useState<any>({
+   const [error3d67b,seterror3d67b] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [inhouse0b227,setinhouse0b227] = React.useState<any>({
+   const [line_chart0fe1c,setline_chart0fe1c] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [cr_acc_no596b0,setcr_acc_no596b0] = React.useState<any>({
+   const [barchart46476,setbarchart46476] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [cr_acc_name0589d,setcr_acc_name0589d] = React.useState<any>({
+   const [apinamecccc2,setapinamecccc2] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [floor_amnt59de7,setfloor_amnt59de7] = React.useState<any>({
+   const [version33b3f,setversion33b3f] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [ceiling_amntc6b28,setceiling_amntc6b28] = React.useState<any>({
+   const [statuscd1e6,setstatuscd1e6] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [brbanknamec54c8,setbrbanknamec54c8] = React.useState<any>({
+   const [api_category0905e,setapi_category0905e] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [brbranchname951ce,setbrbranchname951ce] = React.useState<any>({
+   const [release_date1939f,setrelease_date1939f] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [dr_sort_code26ce5,setdr_sort_code26ce5] = React.useState<any>({
+   const [view_log82d2f,setview_log82d2f] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [currencye913a,setcurrencye913a] = React.useState<any>({
+   const [app_name800b4,setapp_name800b4] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [dr_acnt_no61f56,setdr_acnt_no61f56] = React.useState<any>({
+   const [tppname5329d,settppname5329d] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [dr_acnt_namee2b1e,setdr_acnt_namee2b1e] = React.useState<any>({
+   const [typeb4599,settypeb4599] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [policy_no1316f6,setpolicy_no1316f6] = React.useState<any>({
+   const [status_value35b5d,setstatus_value35b5d] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [policy_no2196cd,setpolicy_no2196cd] = React.useState<any>({
+   const [api_info_labelc7e57,setapi_info_labelc7e57] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [originator_codee7d60,setoriginator_codee7d60] = React.useState<any>({
+   const [back_button1c484,setback_button1c484] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [frequency80676,setfrequency80676] = React.useState<any>({
+   const [global_bank33cbf,setglobal_bank33cbf] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [duedate3cf41,setduedate3cf41] = React.useState<any>({
+   const [apinamesf3b7f,setapinamesf3b7f] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [expirydateee023,setexpirydateee023] = React.useState<any>({
+   const [versions69477,setversions69477] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [doc_name6a955,setdoc_name6a955] = React.useState<any>({
+   const [statuss6320b,setstatuss6320b] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [action55349,setaction55349] = React.useState<any>({
+   const [api_categorys43935,setapi_categorys43935] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [vld_code5df31,setvld_code5df31] = React.useState<any>({
+   const [release_datesd97a1,setrelease_datesd97a1] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [vld_reason0ec55,setvld_reason0ec55] = React.useState<any>({
+   const [api_resource_paths6c67f,setapi_resource_paths6c67f] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [cmnts86495,setcmnts86495] = React.useState<any>({
+   const [apiname45fa8,setapiname45fa8] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [action53022,setaction53022] = React.useState<any>({
+   const [versiona736c,setversiona736c] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [mandateid05ce4,setmandateid05ce4] = React.useState<any>({
+   const [statusddf07,setstatusddf07] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [dracntname92ac0,setdracntname92ac0] = React.useState<any>({
+   const [api_category95348,setapi_category95348] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [dracntno42c4a,setdracntno42c4a] = React.useState<any>({
+   const [release_dateb41fc,setrelease_dateb41fc] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [cracntname9fdc4,setcracntname9fdc4] = React.useState<any>({
+   const [api_resourcepath88fa9,setapi_resourcepath88fa9] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [cracntnoc7b4d,setcracntnoc7b4d] = React.useState<any>({
+   const [total_calls5c0ea,settotal_calls5c0ea] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [ceilingamnt62ee2,setceilingamnt62ee2] = React.useState<any>({
+   const [success_rateee58b,setsuccess_rateee58b] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [frequency1a4a6,setfrequency1a4a6] = React.useState<any>({
+   const [error_rate960d3,seterror_rate960d3] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [duedate03f9a,setduedate03f9a] = React.useState<any>({
+   const [text1bd13,settext1bd13] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [expirydate3fe80,setexpirydate3fe80] = React.useState<any>({
+   const [trs_created_date93619,settrs_created_date93619] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [status68b01,setstatus68b01] = React.useState<any>({
+   const [requestdata1d4f4,setrequestdata1d4f4] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [docnamefb324,setdocnamefb324] = React.useState<any>({
+   const [responsedata35a3f,setresponsedata35a3f] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [deleted70e2,setdeleted70e2] = React.useState<any>({
+   const [tob_consent_requestid80eee,settob_consent_requestid80eee] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [vldcode7ab9e,setvldcode7ab9e] = React.useState<any>({
+   const [view_logs3bb2b,setview_logs3bb2b] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [vldreason6b5dc,setvldreason6b5dc] = React.useState<any>({
+   const [textfe486,settextfe486] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [cmnts2d060,setcmnts2d060] = React.useState<any>({
+   const [request_consent_baseconsentid4221e,setrequest_consent_baseconsentid4221e] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [scanbttn5a0f8,setscanbttn5a0f8] = React.useState<any>({
+   const [interactionid5cd91,setinteractionid5cd91] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [foldescanbtn9632b,setfoldescanbtn9632b] = React.useState<any>({
+   const [request_consent_permissions1448d,setrequest_consent_permissions1448d] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [savebuttn2c3e8,setsavebuttn2c3e8] = React.useState<any>({
+   const [consentbody_data_revokedby6ede9,setconsentbody_data_revokedby6ede9] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [cancelbtn74e6a,setcancelbtn74e6a] = React.useState<any>({
+   const [request_consent_expiratriondatetime3ba51,setrequest_consent_expiratriondatetime3ba51] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [update5d670,setupdate5d670] = React.useState<any>({
+   const [status61386,setstatus61386] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [deletebtn81d63,setdeletebtn81d63] = React.useState<any>({
+   const [api_usage_overviewecc9e,setapi_usage_overviewecc9e] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
     refetch:false,
     refresh:false,
     }) 
-   const [docviewer4f7f9,setdocviewer4f7f9] = React.useState<any>({
+   const [tot_req_icon1fa8f,settot_req_icon1fa8f] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [active_icon42af9,setactive_icon42af9] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [most_used_apis2686b,setmost_used_apis2686b] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [most_used_api_icon6560d,setmost_used_api_icon6560d] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [error_rate72497,seterror_rate72497] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [error_rate_icon89a9a,seterror_rate_icon89a9a] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [api_call_hours6d062,setapi_call_hours6d062] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [api_call_hours_dropdown5f803,setapi_call_hours_dropdown5f803] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [api_call_over_hour_linechart38cfd,setapi_call_over_hour_linechart38cfd] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [api_call_over_month_linechartcc886,setapi_call_over_month_linechartcc886] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [week_linechart709e7,setweek_linechart709e7] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [total_used_api_text0681a,settotal_used_api_text0681a] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [get_accounts_textded93,setget_accounts_textded93] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [get_acc_progressf3140,setget_acc_progressf3140] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [get_account_id_textcfcd9,setget_account_id_textcfcd9] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [get_acc_id_progress564cc,setget_acc_id_progress564cc] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [get_balance_textc22b2,setget_balance_textc22b2] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [get_balance_progressa0d54,setget_balance_progressa0d54] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [get_direct_debits_text067ca,setget_direct_debits_text067ca] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [get_direct_debits_progress04032,setget_direct_debits_progress04032] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [products_textc39eb,setproducts_textc39eb] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [product_progressee376,setproduct_progressee376] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [app_namedc4c5,setapp_namedc4c5] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [tppname5b032,settppname5b032] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [typed4eac,settyped4eac] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [status_value3beb3,setstatus_value3beb3] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [consent_lifecycles11691,setconsent_lifecycles11691] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [text45645c95a7,settext45645c95a7] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [icon56454d73c,seticon56454d73c] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [text23523e7140,settext23523e7140] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [text454513feb,settext454513feb] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [icon5675ee8ba,seticon5675ee8ba] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [text4564580602,settext4564580602] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [textwrwer0e4e1,settextwrwer0e4e1] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [icon234234e2c9a,seticon234234e2c9a] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [textwerweraf6e8,settextwerweraf6e8] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [text3457254757f70,settext3457254757f70] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [icon86986b1a3,seticon86986b1a3] = React.useState<any>({
+    isDisabled: false,
+    presetValues: '',
+    isHidden: false,
+    refetch:false,
+    refresh:false,
+    }) 
+   const [text2668f,settext2668f] = React.useState<any>({
     isDisabled: false,
     presetValues: '',
     isHidden: false,
@@ -1005,92 +1555,145 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
     refresh:false,
     }) 
     ///////////
-    const [refresh, setRefresh] = React.useState<Record<string, boolean>>({       texttext474c8:false,
-       dropdownbatch_type6befb:false,
-       texttextf1c24:false,
-       checkboxvariable_pay68402:false,
-       checkboxinhouse0b227:false,
-       textinputcr_acc_no596b0:false,
-       textinputcr_acc_name0589d:false,
-       textinputfloor_amnt59de7:false,
-       textinputceiling_amntc6b28:false,
-       dropdownbrbanknamec54c8:false,
-       dropdownbrbranchname951ce:false,
-       textinputdr_sort_code26ce5:false,
-       textinputcurrencye913a:false,
-       textinputdr_acnt_no61f56:false,
-       textinputdr_acnt_namee2b1e:false,
-       textinputpolicy_no1316f6:false,
-       textinputpolicy_no2196cd:false,
-       textinputoriginator_codee7d60:false,
-       dropdownfrequency80676:false,
-       datepickerduedate3cf41:false,
-       datepickerexpirydateee023:false,
-       columndoc_name6a955:false,
-       buttonaction55349:false,
-       columnvld_code5df31:false,
-       columnvld_reason0ec55:false,
-       columncmnts86495:false,
-       buttonaction53022:false,
-       columnmandateid05ce4:false,
-       columndracntname92ac0:false,
-       columndracntno42c4a:false,
-       columncracntname9fdc4:false,
-       columncracntnoc7b4d:false,
-       columnceilingamnt62ee2:false,
-       columnfrequency1a4a6:false,
-       columnduedate03f9a:false,
-       columnexpirydate3fe80:false,
-       columnstatus68b01:false,
-       columndocnamefb324:false,
-       buttondeleted70e2:false,
-       columnvldcode7ab9e:false,
-       columnvldreason6b5dc:false,
-       columncmnts2d060:false,
-       buttonscanbttn5a0f8:false,
-       buttonfoldescanbtn9632b:false,
-       buttonsavebuttn2c3e8:false,
-       buttoncancelbtn74e6a:false,
-       buttonupdate5d670:false,
-       buttondeletebtn81d63:false,
-       documentviewerdocviewer4f7f9:false,
-       groupoverallgroup00e53:false,
-       groupmandatedtls2cb9f:false,
-       groupmandateinfo1b809:false,
-       groupmnssubgroup3df12:false,
-       groupCT005_AF_UF_UFWS_V001_MMS_Mandate_subscreen2_v1a54b9:false,
-       groupmndate_common_info3fb9d:false,
-       groupmndate_basic_sub_screenc9573:false,
-       groupCT005_AF_UF_UFWS_V001_MMS_Mandate_Subscreen_v12764c:false,
-       groupsubgroup7f52e:false,
-       groupmandate_data_tabb1bce:false,
-       groupdocument_lst2adea:false,
-       tabledoc_data_lst1fd5c:false,
-       groupvalidation_lst771f5:false,
-       tablevaldtn_data_lst378bc:false,
-       groupcomment_lst2b2ca:false,
-       tablecmnt_data_lste3582:false,
-       groupmandatelstc0e2c:false,
-       tablemandatedatalst46c27:false,
-       grouplistgroup6f63e:false,
-       groupdoclst42d30:false,
-       tabledocdatalst620a8:false,
-       groupvaldtnlst4ad99:false,
-       tablevaldtndatalstd58f5:false,
-       groupcmntlst0f1ad:false,
-       tablecmntdatalste4cdc:false,
-       groupdynamic_group_btns3c327:false,
+    const [refresh, setRefresh] = React.useState<Record<string, boolean>>({       cardmost_used_apis72497:false,
+       cardactive_apisac162:false,
+       cardtotal_requests06c5a:false,
+       carderror3d67b:false,
+       linechartline_chart0fe1c:false,
+       barchartbarchart46476:false,
+       columnapinamecccc2:false,
+       columnversion33b3f:false,
+       columnstatuscd1e6:false,
+       columnapi_category0905e:false,
+       columnrelease_date1939f:false,
+       buttonview_log82d2f:false,
+       columnapp_name800b4:false,
+       columntppname5329d:false,
+       columntypeb4599:false,
+       columnstatus_value35b5d:false,
+       textapi_info_labelc7e57:false,
+       buttonback_button1c484:false,
+       textglobal_bank33cbf:false,
+       labelapinamesf3b7f:false,
+       labelversions69477:false,
+       labelstatuss6320b:false,
+       labelapi_categorys43935:false,
+       labelrelease_datesd97a1:false,
+       labelapi_resource_paths6c67f:false,
+       textinputapiname45fa8:false,
+       textinputversiona736c:false,
+       textinputstatusddf07:false,
+       textinputapi_category95348:false,
+       textinputrelease_dateb41fc:false,
+       textinputapi_resourcepath88fa9:false,
+       cardtotal_calls5c0ea:false,
+       cardsuccess_rateee58b:false,
+       carderror_rate960d3:false,
+       texttext1bd13:false,
+       columntrs_created_date93619:false,
+       columnrequestdata1d4f4:false,
+       columnresponsedata35a3f:false,
+       columntob_consent_requestid80eee:false,
+       buttonview_logs3bb2b:false,
+       texttextfe486:false,
+       columnrequest_consent_baseconsentid4221e:false,
+       columninteractionid5cd91:false,
+       columnrequest_consent_permissions1448d:false,
+       columnconsentbody_data_revokedby6ede9:false,
+       columnrequest_consent_expiratriondatetime3ba51:false,
+       columnstatus61386:false,
+       textapi_usage_overviewecc9e:false,
+       icontot_req_icon1fa8f:false,
+       iconactive_icon42af9:false,
+       cardmost_used_apis2686b:false,
+       iconmost_used_api_icon6560d:false,
+       carderror_rate72497:false,
+       iconerror_rate_icon89a9a:false,
+       textapi_call_hours6d062:false,
+       dropdownapi_call_hours_dropdown5f803:false,
+       linechartapi_call_over_hour_linechart38cfd:false,
+       linechartapi_call_over_month_linechartcc886:false,
+       linechartweek_linechart709e7:false,
+       texttotal_used_api_text0681a:false,
+       textget_accounts_textded93:false,
+       progressget_acc_progressf3140:false,
+       textget_account_id_textcfcd9:false,
+       progressget_acc_id_progress564cc:false,
+       textget_balance_textc22b2:false,
+       progressget_balance_progressa0d54:false,
+       textget_direct_debits_text067ca:false,
+       progressget_direct_debits_progress04032:false,
+       textproducts_textc39eb:false,
+       progressproduct_progressee376:false,
+       columnapp_namedc4c5:false,
+       columntppname5b032:false,
+       columntyped4eac:false,
+       columnstatus_value3beb3:false,
+       textconsent_lifecycles11691:false,
+       texttext45645c95a7:false,
+       iconicon56454d73c:false,
+       texttext23523e7140:false,
+       texttext454513feb:false,
+       iconicon5675ee8ba:false,
+       texttext4564580602:false,
+       texttextwrwer0e4e1:false,
+       iconicon234234e2c9a:false,
+       texttextwerweraf6e8:false,
+       texttext3457254757f70:false,
+       iconicon86986b1a3:false,
+       texttext2668f:false,
+       groupvob_dashboard_screen9ce49:false,
+       groupmost_groupc5ce0:false,
+       groupactive_group31e18:false,
+       groupreq_groupdf5e7:false,
+       grouperror_groupcf699:false,
+       groupline_chart_groupadc5c:false,
+       groupbar_chart_group31635:false,
+       groupapi_repo_table162e4:false,
+       tableapi_repositoryb1ab8:false,
+       tableconnected_application17a5d:false,
+       groupapi_info_groupd3ad5:false,
+       groupinfo_group5e349:false,
+       groupinfo_summary_groupa2a0f:false,
+       groupapi_process_log_groupff19c:false,
+       tableapi_process_log655a7:false,
+       groupconsent_logs_group3070a:false,
+       tableconsent_logs53635:false,
+       groupapi_usage_group868b4:false,
+       grouptotal_api_calls_groupd4dee:false,
+       groupapi_call_over_frequency_subscreenb8acc:false,
+       groupCT009_AF_UF_UFWS_TOB001_TOB002_API_Call_Over_Hour_v1e9bb7:false,
+       groupapi_call_over_hour_group12590:false,
+       groupCT009_AF_UF_UFWS_TOB001_TOB002_API_Call_Over_Month_v1bb789:false,
+       groupapi_call_over_month_groupd1676:false,
+       groupCT009_AF_UF_UFWS_TOB001_TOB002_API_Call_Over_Week_v1ce1f3:false,
+       groupapi_call_over_week_group03bb6:false,
+       grouptotal_used_api_groupcd37d:false,
+       grouplist_of_register_tpp_groupbe9d5:false,
+       tableconnected_application19ab2:false,
+       groupgroup1233a04c:false,
+       groupgroup4549ff98:false,
+       groupgroup657d5:false,
+       groupgroup6576622ab:false,
+       groupgroup796798bff3:false,
       })
 
   ////// screen states 
-   const [mms_mandate_info_v1Props,setmms_mandate_info_v1Props] = React.useState<any>([])
+   const [vob_dashboard_screen_v1Props,setvob_dashboard_screen_v1Props] = React.useState<any>([])
+   const [vob_api_info_v1Props,setvob_api_info_v1Props] = React.useState<any>([])
+   const [vob_consents_log_v1Props,setvob_consents_log_v1Props] = React.useState<any>([])
+   const [vob_dashboard_design_v1Props,setvob_dashboard_design_v1Props] = React.useState<any>([])
 
 ///////// dfd
-  const [dfd_subscreen_db_v1Props,setdfd_subscreen_db_v1Props] = React.useState<any>([])
-  const [dfd_combo_subscreen_db_v1Props,setdfd_combo_subscreen_db_v1Props] = React.useState<any>([])
-  const [dfd_mandate_error_lst_db_v1Props,setdfd_mandate_error_lst_db_v1Props] = React.useState<any>([])
-  const [dfd_mandate_doc_lst_db_v1Props,setdfd_mandate_doc_lst_db_v1Props] = React.useState<any>([])
-  const [dfd_mandate_list_db_v1Props,setdfd_mandate_list_db_v1Props] = React.useState<any>([])
+  const [dfd_tob_consent_request_ca_dfd_v1Props,setdfd_tob_consent_request_ca_dfd_v1Props] = React.useState<any>([])
+  const [dfd_mongo_totalcalls_dfd_v1Props,setdfd_mongo_totalcalls_dfd_v1Props] = React.useState<any>([])
+  const [dfd_mongo_api_repository_dfd_v1Props,setdfd_mongo_api_repository_dfd_v1Props] = React.useState<any>([])
+  const [dfd_mongodb_api_process_logs_dfd_v1Props,setdfd_mongodb_api_process_logs_dfd_v1Props] = React.useState<any>([])
+  const [dfd_mongodb_maindashboard_dfd_v1Props,setdfd_mongodb_maindashboard_dfd_v1Props] = React.useState<any>([])
+  const [dfd_tob_consents_request_dfd_v1Props,setdfd_tob_consents_request_dfd_v1Props] = React.useState<any>([])
+  const [dfd_mongo_barchart_dfd_v1Props,setdfd_mongo_barchart_dfd_v1Props] = React.useState<any>([])
+  const [dfd_mongo_linechart_dfd_v1Props,setdfd_mongo_linechart_dfd_v1Props] = React.useState<any>([])
+  const [dfd_tob_total_used_api_dfd_v1Props,setdfd_tob_total_used_api_dfd_v1Props] = React.useState<any>([])
     const [searchParam , setSearchParam] = React.useState<string>("")
     const [disableParam , setDisableParam] = React.useState<Record<string, boolean>>({})
     const [globalState , setGlobalState] = React.useState<Record<string, any>>({})
@@ -1121,224 +1724,346 @@ const GlobalContext = ({children} : {children: React.ReactNode}) => {
         setCurrentToken,
         matchedAccessProfileData,
         setMatchedAccessProfileData,
-        overallgroup00e53, 
-        setoverallgroup00e53,
-        overallgroup00e53Props, 
-        setoverallgroup00e53Props,
-        mandatedtls2cb9f, 
-        setmandatedtls2cb9f,
-        mandatedtls2cb9fProps, 
-        setmandatedtls2cb9fProps,
-        mandateinfo1b809, 
-        setmandateinfo1b809,
-        mandateinfo1b809Props, 
-        setmandateinfo1b809Props,
-        mnssubgroup3df12, 
-        setmnssubgroup3df12,
-        mnssubgroup3df12Props, 
-        setmnssubgroup3df12Props,
-        ct005_af_uf_ufws_v001_mms_mandate_subscreen2_v1a54b9, 
-        setct005_af_uf_ufws_v001_mms_mandate_subscreen2_v1a54b9,
-        ct005_af_uf_ufws_v001_mms_mandate_subscreen2_v1a54b9Props, 
-        setct005_af_uf_ufws_v001_mms_mandate_subscreen2_v1a54b9Props,
-        mndate_common_info3fb9d, 
-        setmndate_common_info3fb9d,
-        mndate_common_info3fb9dProps, 
-        setmndate_common_info3fb9dProps,
-        mndate_basic_sub_screenc9573, 
-        setmndate_basic_sub_screenc9573,
-        mndate_basic_sub_screenc9573Props, 
-        setmndate_basic_sub_screenc9573Props,
-        ct005_af_uf_ufws_v001_mms_mandate_subscreen_v12764c, 
-        setct005_af_uf_ufws_v001_mms_mandate_subscreen_v12764c,
-        ct005_af_uf_ufws_v001_mms_mandate_subscreen_v12764cProps, 
-        setct005_af_uf_ufws_v001_mms_mandate_subscreen_v12764cProps,
-        subgroup7f52e, 
-        setsubgroup7f52e,
-        subgroup7f52eProps, 
-        setsubgroup7f52eProps,
-        mandate_data_tabb1bce, 
-        setmandate_data_tabb1bce,
-        mandate_data_tabb1bceProps, 
-        setmandate_data_tabb1bceProps,
-        document_lst2adea, 
-        setdocument_lst2adea,
-        document_lst2adeaProps, 
-        setdocument_lst2adeaProps,
-        doc_data_lst1fd5c, 
-        setdoc_data_lst1fd5c,
-        doc_data_lst1fd5cProps, 
-        setdoc_data_lst1fd5cProps,
-        validation_lst771f5, 
-        setvalidation_lst771f5,
-        validation_lst771f5Props, 
-        setvalidation_lst771f5Props,
-        valdtn_data_lst378bc, 
-        setvaldtn_data_lst378bc,
-        valdtn_data_lst378bcProps, 
-        setvaldtn_data_lst378bcProps,
-        comment_lst2b2ca, 
-        setcomment_lst2b2ca,
-        comment_lst2b2caProps, 
-        setcomment_lst2b2caProps,
-        cmnt_data_lste3582, 
-        setcmnt_data_lste3582,
-        cmnt_data_lste3582Props, 
-        setcmnt_data_lste3582Props,
-        mandatelstc0e2c, 
-        setmandatelstc0e2c,
-        mandatelstc0e2cProps, 
-        setmandatelstc0e2cProps,
-        mandatedatalst46c27, 
-        setmandatedatalst46c27,
-        mandatedatalst46c27Props, 
-        setmandatedatalst46c27Props,
-        listgroup6f63e, 
-        setlistgroup6f63e,
-        listgroup6f63eProps, 
-        setlistgroup6f63eProps,
-        doclst42d30, 
-        setdoclst42d30,
-        doclst42d30Props, 
-        setdoclst42d30Props,
-        docdatalst620a8, 
-        setdocdatalst620a8,
-        docdatalst620a8Props, 
-        setdocdatalst620a8Props,
-        valdtnlst4ad99, 
-        setvaldtnlst4ad99,
-        valdtnlst4ad99Props, 
-        setvaldtnlst4ad99Props,
-        valdtndatalstd58f5, 
-        setvaldtndatalstd58f5,
-        valdtndatalstd58f5Props, 
-        setvaldtndatalstd58f5Props,
-        cmntlst0f1ad, 
-        setcmntlst0f1ad,
-        cmntlst0f1adProps, 
-        setcmntlst0f1adProps,
-        cmntdatalste4cdc, 
-        setcmntdatalste4cdc,
-        cmntdatalste4cdcProps, 
-        setcmntdatalste4cdcProps,
-        dynamic_group_btns3c327, 
-        setdynamic_group_btns3c327,
-        dynamic_group_btns3c327Props, 
-        setdynamic_group_btns3c327Props,
-        text474c8,
-        settext474c8, 
-        batch_type6befb,
-        setbatch_type6befb, 
-        textf1c24,
-        settextf1c24, 
-        variable_pay68402,
-        setvariable_pay68402, 
-        inhouse0b227,
-        setinhouse0b227, 
-        cr_acc_no596b0,
-        setcr_acc_no596b0, 
-        cr_acc_name0589d,
-        setcr_acc_name0589d, 
-        floor_amnt59de7,
-        setfloor_amnt59de7, 
-        ceiling_amntc6b28,
-        setceiling_amntc6b28, 
-        brbanknamec54c8,
-        setbrbanknamec54c8, 
-        brbranchname951ce,
-        setbrbranchname951ce, 
-        dr_sort_code26ce5,
-        setdr_sort_code26ce5, 
-        currencye913a,
-        setcurrencye913a, 
-        dr_acnt_no61f56,
-        setdr_acnt_no61f56, 
-        dr_acnt_namee2b1e,
-        setdr_acnt_namee2b1e, 
-        policy_no1316f6,
-        setpolicy_no1316f6, 
-        policy_no2196cd,
-        setpolicy_no2196cd, 
-        originator_codee7d60,
-        setoriginator_codee7d60, 
-        frequency80676,
-        setfrequency80676, 
-        duedate3cf41,
-        setduedate3cf41, 
-        expirydateee023,
-        setexpirydateee023, 
-        doc_name6a955,
-        setdoc_name6a955, 
-        action55349,
-        setaction55349, 
-        vld_code5df31,
-        setvld_code5df31, 
-        vld_reason0ec55,
-        setvld_reason0ec55, 
-        cmnts86495,
-        setcmnts86495, 
-        action53022,
-        setaction53022, 
-        mandateid05ce4,
-        setmandateid05ce4, 
-        dracntname92ac0,
-        setdracntname92ac0, 
-        dracntno42c4a,
-        setdracntno42c4a, 
-        cracntname9fdc4,
-        setcracntname9fdc4, 
-        cracntnoc7b4d,
-        setcracntnoc7b4d, 
-        ceilingamnt62ee2,
-        setceilingamnt62ee2, 
-        frequency1a4a6,
-        setfrequency1a4a6, 
-        duedate03f9a,
-        setduedate03f9a, 
-        expirydate3fe80,
-        setexpirydate3fe80, 
-        status68b01,
-        setstatus68b01, 
-        docnamefb324,
-        setdocnamefb324, 
-        deleted70e2,
-        setdeleted70e2, 
-        vldcode7ab9e,
-        setvldcode7ab9e, 
-        vldreason6b5dc,
-        setvldreason6b5dc, 
-        cmnts2d060,
-        setcmnts2d060, 
-        scanbttn5a0f8,
-        setscanbttn5a0f8, 
-        foldescanbtn9632b,
-        setfoldescanbtn9632b, 
-        savebuttn2c3e8,
-        setsavebuttn2c3e8, 
-        cancelbtn74e6a,
-        setcancelbtn74e6a, 
-        update5d670,
-        setupdate5d670, 
-        deletebtn81d63,
-        setdeletebtn81d63, 
-        docviewer4f7f9,
-        setdocviewer4f7f9, 
+        vob_dashboard_screen9ce49, 
+        setvob_dashboard_screen9ce49,
+        vob_dashboard_screen9ce49Props, 
+        setvob_dashboard_screen9ce49Props,
+        most_groupc5ce0, 
+        setmost_groupc5ce0,
+        most_groupc5ce0Props, 
+        setmost_groupc5ce0Props,
+        active_group31e18, 
+        setactive_group31e18,
+        active_group31e18Props, 
+        setactive_group31e18Props,
+        req_groupdf5e7, 
+        setreq_groupdf5e7,
+        req_groupdf5e7Props, 
+        setreq_groupdf5e7Props,
+        error_groupcf699, 
+        seterror_groupcf699,
+        error_groupcf699Props, 
+        seterror_groupcf699Props,
+        line_chart_groupadc5c, 
+        setline_chart_groupadc5c,
+        line_chart_groupadc5cProps, 
+        setline_chart_groupadc5cProps,
+        bar_chart_group31635, 
+        setbar_chart_group31635,
+        bar_chart_group31635Props, 
+        setbar_chart_group31635Props,
+        api_repo_table162e4, 
+        setapi_repo_table162e4,
+        api_repo_table162e4Props, 
+        setapi_repo_table162e4Props,
+        api_repositoryb1ab8, 
+        setapi_repositoryb1ab8,
+        api_repositoryb1ab8Props, 
+        setapi_repositoryb1ab8Props,
+        connected_application17a5d, 
+        setconnected_application17a5d,
+        connected_application17a5dProps, 
+        setconnected_application17a5dProps,
+        api_info_groupd3ad5, 
+        setapi_info_groupd3ad5,
+        api_info_groupd3ad5Props, 
+        setapi_info_groupd3ad5Props,
+        info_group5e349, 
+        setinfo_group5e349,
+        info_group5e349Props, 
+        setinfo_group5e349Props,
+        info_summary_groupa2a0f, 
+        setinfo_summary_groupa2a0f,
+        info_summary_groupa2a0fProps, 
+        setinfo_summary_groupa2a0fProps,
+        api_process_log_groupff19c, 
+        setapi_process_log_groupff19c,
+        api_process_log_groupff19cProps, 
+        setapi_process_log_groupff19cProps,
+        api_process_log655a7, 
+        setapi_process_log655a7,
+        api_process_log655a7Props, 
+        setapi_process_log655a7Props,
+        consent_logs_group3070a, 
+        setconsent_logs_group3070a,
+        consent_logs_group3070aProps, 
+        setconsent_logs_group3070aProps,
+        consent_logs53635, 
+        setconsent_logs53635,
+        consent_logs53635Props, 
+        setconsent_logs53635Props,
+        api_usage_group868b4, 
+        setapi_usage_group868b4,
+        api_usage_group868b4Props, 
+        setapi_usage_group868b4Props,
+        total_api_calls_groupd4dee, 
+        settotal_api_calls_groupd4dee,
+        total_api_calls_groupd4deeProps, 
+        settotal_api_calls_groupd4deeProps,
+        api_call_over_frequency_subscreenb8acc, 
+        setapi_call_over_frequency_subscreenb8acc,
+        api_call_over_frequency_subscreenb8accProps, 
+        setapi_call_over_frequency_subscreenb8accProps,
+        ct009_af_uf_ufws_tob001_tob002_api_call_over_hour_v1e9bb7, 
+        setct009_af_uf_ufws_tob001_tob002_api_call_over_hour_v1e9bb7,
+        ct009_af_uf_ufws_tob001_tob002_api_call_over_hour_v1e9bb7Props, 
+        setct009_af_uf_ufws_tob001_tob002_api_call_over_hour_v1e9bb7Props,
+        api_call_over_hour_group12590, 
+        setapi_call_over_hour_group12590,
+        api_call_over_hour_group12590Props, 
+        setapi_call_over_hour_group12590Props,
+        ct009_af_uf_ufws_tob001_tob002_api_call_over_month_v1bb789, 
+        setct009_af_uf_ufws_tob001_tob002_api_call_over_month_v1bb789,
+        ct009_af_uf_ufws_tob001_tob002_api_call_over_month_v1bb789Props, 
+        setct009_af_uf_ufws_tob001_tob002_api_call_over_month_v1bb789Props,
+        api_call_over_month_groupd1676, 
+        setapi_call_over_month_groupd1676,
+        api_call_over_month_groupd1676Props, 
+        setapi_call_over_month_groupd1676Props,
+        ct009_af_uf_ufws_tob001_tob002_api_call_over_week_v1ce1f3, 
+        setct009_af_uf_ufws_tob001_tob002_api_call_over_week_v1ce1f3,
+        ct009_af_uf_ufws_tob001_tob002_api_call_over_week_v1ce1f3Props, 
+        setct009_af_uf_ufws_tob001_tob002_api_call_over_week_v1ce1f3Props,
+        api_call_over_week_group03bb6, 
+        setapi_call_over_week_group03bb6,
+        api_call_over_week_group03bb6Props, 
+        setapi_call_over_week_group03bb6Props,
+        total_used_api_groupcd37d, 
+        settotal_used_api_groupcd37d,
+        total_used_api_groupcd37dProps, 
+        settotal_used_api_groupcd37dProps,
+        list_of_register_tpp_groupbe9d5, 
+        setlist_of_register_tpp_groupbe9d5,
+        list_of_register_tpp_groupbe9d5Props, 
+        setlist_of_register_tpp_groupbe9d5Props,
+        connected_application19ab2, 
+        setconnected_application19ab2,
+        connected_application19ab2Props, 
+        setconnected_application19ab2Props,
+        group1233a04c, 
+        setgroup1233a04c,
+        group1233a04cProps, 
+        setgroup1233a04cProps,
+        group4549ff98, 
+        setgroup4549ff98,
+        group4549ff98Props, 
+        setgroup4549ff98Props,
+        group657d5, 
+        setgroup657d5,
+        group657d5Props, 
+        setgroup657d5Props,
+        group6576622ab, 
+        setgroup6576622ab,
+        group6576622abProps, 
+        setgroup6576622abProps,
+        group796798bff3, 
+        setgroup796798bff3,
+        group796798bff3Props, 
+        setgroup796798bff3Props,
+        most_used_apis72497,
+        setmost_used_apis72497, 
+        active_apisac162,
+        setactive_apisac162, 
+        total_requests06c5a,
+        settotal_requests06c5a, 
+        error3d67b,
+        seterror3d67b, 
+        line_chart0fe1c,
+        setline_chart0fe1c, 
+        barchart46476,
+        setbarchart46476, 
+        apinamecccc2,
+        setapinamecccc2, 
+        version33b3f,
+        setversion33b3f, 
+        statuscd1e6,
+        setstatuscd1e6, 
+        api_category0905e,
+        setapi_category0905e, 
+        release_date1939f,
+        setrelease_date1939f, 
+        view_log82d2f,
+        setview_log82d2f, 
+        app_name800b4,
+        setapp_name800b4, 
+        tppname5329d,
+        settppname5329d, 
+        typeb4599,
+        settypeb4599, 
+        status_value35b5d,
+        setstatus_value35b5d, 
+        api_info_labelc7e57,
+        setapi_info_labelc7e57, 
+        back_button1c484,
+        setback_button1c484, 
+        global_bank33cbf,
+        setglobal_bank33cbf, 
+        apinamesf3b7f,
+        setapinamesf3b7f, 
+        versions69477,
+        setversions69477, 
+        statuss6320b,
+        setstatuss6320b, 
+        api_categorys43935,
+        setapi_categorys43935, 
+        release_datesd97a1,
+        setrelease_datesd97a1, 
+        api_resource_paths6c67f,
+        setapi_resource_paths6c67f, 
+        apiname45fa8,
+        setapiname45fa8, 
+        versiona736c,
+        setversiona736c, 
+        statusddf07,
+        setstatusddf07, 
+        api_category95348,
+        setapi_category95348, 
+        release_dateb41fc,
+        setrelease_dateb41fc, 
+        api_resourcepath88fa9,
+        setapi_resourcepath88fa9, 
+        total_calls5c0ea,
+        settotal_calls5c0ea, 
+        success_rateee58b,
+        setsuccess_rateee58b, 
+        error_rate960d3,
+        seterror_rate960d3, 
+        text1bd13,
+        settext1bd13, 
+        trs_created_date93619,
+        settrs_created_date93619, 
+        requestdata1d4f4,
+        setrequestdata1d4f4, 
+        responsedata35a3f,
+        setresponsedata35a3f, 
+        tob_consent_requestid80eee,
+        settob_consent_requestid80eee, 
+        view_logs3bb2b,
+        setview_logs3bb2b, 
+        textfe486,
+        settextfe486, 
+        request_consent_baseconsentid4221e,
+        setrequest_consent_baseconsentid4221e, 
+        interactionid5cd91,
+        setinteractionid5cd91, 
+        request_consent_permissions1448d,
+        setrequest_consent_permissions1448d, 
+        consentbody_data_revokedby6ede9,
+        setconsentbody_data_revokedby6ede9, 
+        request_consent_expiratriondatetime3ba51,
+        setrequest_consent_expiratriondatetime3ba51, 
+        status61386,
+        setstatus61386, 
+        api_usage_overviewecc9e,
+        setapi_usage_overviewecc9e, 
+        tot_req_icon1fa8f,
+        settot_req_icon1fa8f, 
+        active_icon42af9,
+        setactive_icon42af9, 
+        most_used_apis2686b,
+        setmost_used_apis2686b, 
+        most_used_api_icon6560d,
+        setmost_used_api_icon6560d, 
+        error_rate72497,
+        seterror_rate72497, 
+        error_rate_icon89a9a,
+        seterror_rate_icon89a9a, 
+        api_call_hours6d062,
+        setapi_call_hours6d062, 
+        api_call_hours_dropdown5f803,
+        setapi_call_hours_dropdown5f803, 
+        api_call_over_hour_linechart38cfd,
+        setapi_call_over_hour_linechart38cfd, 
+        api_call_over_month_linechartcc886,
+        setapi_call_over_month_linechartcc886, 
+        week_linechart709e7,
+        setweek_linechart709e7, 
+        total_used_api_text0681a,
+        settotal_used_api_text0681a, 
+        get_accounts_textded93,
+        setget_accounts_textded93, 
+        get_acc_progressf3140,
+        setget_acc_progressf3140, 
+        get_account_id_textcfcd9,
+        setget_account_id_textcfcd9, 
+        get_acc_id_progress564cc,
+        setget_acc_id_progress564cc, 
+        get_balance_textc22b2,
+        setget_balance_textc22b2, 
+        get_balance_progressa0d54,
+        setget_balance_progressa0d54, 
+        get_direct_debits_text067ca,
+        setget_direct_debits_text067ca, 
+        get_direct_debits_progress04032,
+        setget_direct_debits_progress04032, 
+        products_textc39eb,
+        setproducts_textc39eb, 
+        product_progressee376,
+        setproduct_progressee376, 
+        app_namedc4c5,
+        setapp_namedc4c5, 
+        tppname5b032,
+        settppname5b032, 
+        typed4eac,
+        settyped4eac, 
+        status_value3beb3,
+        setstatus_value3beb3, 
+        consent_lifecycles11691,
+        setconsent_lifecycles11691, 
+        text45645c95a7,
+        settext45645c95a7, 
+        icon56454d73c,
+        seticon56454d73c, 
+        text23523e7140,
+        settext23523e7140, 
+        text454513feb,
+        settext454513feb, 
+        icon5675ee8ba,
+        seticon5675ee8ba, 
+        text4564580602,
+        settext4564580602, 
+        textwrwer0e4e1,
+        settextwrwer0e4e1, 
+        icon234234e2c9a,
+        seticon234234e2c9a, 
+        textwerweraf6e8,
+        settextwerweraf6e8, 
+        text3457254757f70,
+        settext3457254757f70, 
+        icon86986b1a3,
+        seticon86986b1a3, 
+        text2668f,
+        settext2668f, 
         ////// screen states 
-          mms_mandate_info_v1Props,
-          setmms_mandate_info_v1Props,
+          vob_dashboard_screen_v1Props,
+          setvob_dashboard_screen_v1Props,
+          vob_api_info_v1Props,
+          setvob_api_info_v1Props,
+          vob_consents_log_v1Props,
+          setvob_consents_log_v1Props,
+          vob_dashboard_design_v1Props,
+          setvob_dashboard_design_v1Props,
         //////////
 
         ///////// dfd
-        dfd_subscreen_db_v1Props,
-        setdfd_subscreen_db_v1Props,
-        dfd_combo_subscreen_db_v1Props,
-        setdfd_combo_subscreen_db_v1Props,
-        dfd_mandate_error_lst_db_v1Props,
-        setdfd_mandate_error_lst_db_v1Props,
-        dfd_mandate_doc_lst_db_v1Props,
-        setdfd_mandate_doc_lst_db_v1Props,
-        dfd_mandate_list_db_v1Props,
-        setdfd_mandate_list_db_v1Props,
+        dfd_tob_consent_request_ca_dfd_v1Props,
+        setdfd_tob_consent_request_ca_dfd_v1Props,
+        dfd_mongo_totalcalls_dfd_v1Props,
+        setdfd_mongo_totalcalls_dfd_v1Props,
+        dfd_mongo_api_repository_dfd_v1Props,
+        setdfd_mongo_api_repository_dfd_v1Props,
+        dfd_mongodb_api_process_logs_dfd_v1Props,
+        setdfd_mongodb_api_process_logs_dfd_v1Props,
+        dfd_mongodb_maindashboard_dfd_v1Props,
+        setdfd_mongodb_maindashboard_dfd_v1Props,
+        dfd_tob_consents_request_dfd_v1Props,
+        setdfd_tob_consents_request_dfd_v1Props,
+        dfd_mongo_barchart_dfd_v1Props,
+        setdfd_mongo_barchart_dfd_v1Props,
+        dfd_mongo_linechart_dfd_v1Props,
+        setdfd_mongo_linechart_dfd_v1Props,
+        dfd_tob_total_used_api_dfd_v1Props,
+        setdfd_tob_total_used_api_dfd_v1Props,
         refetch,
         setRefetch,
         searchParam,

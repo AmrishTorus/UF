@@ -41,15 +41,15 @@ const LayoutDecider = ({
   const { borderColor, bgColor } : { borderColor: string; bgColor: string } = useTheme()
   const { brandColor, hoverColor, selectionColor } : { brandColor: string; hoverColor: string; selectionColor: string } = branding;
   const encryptionFlagApp: boolean = false;    
-  const encryptionDpd: string = "CK:CT005:FNGK:AF:FNK:CDF-DPD:CATK:V001:AFGK:MMS:AFK:VGPH_MMS_DPD:AFVK:v1";
+  const encryptionDpd: string = "CK:CT009:FNGK:AF:FNK:CDF-DPD:CATK:TOB001:AFGK:TOB002:AFK:TOB_DPD:AFVK:v1";
   const encryptionMethod: string = "";
   const logo: string = ""
   const appLogo: string = ""
-  const appName: string = "Mandate Management System"
+  const appName: string = "Veracious Open Banking"
   const toast: Function = useInfoMsg()
   const [loading, setLoading] = useState<boolean>(true)
   const [updatedNavData, setUpdatedNavData] = useState<MenuItem[]>([])
-  const aKey :string = "CK:TGA:FNGK:BLDC:FNK:DEV:CATK:CT005:AFGK:V001:AFK:MMS:AFVK:v1:bldc"
+  const aKey :string = "CK:TGA:FNGK:BLDC:FNK:DEV:CATK:CT009:AFGK:TOB001:AFK:TOB002:AFVK:v1:bldc"
   const [rawNavData, setRawNavData] = useState<MenuItem[] | null>(null);
   const navData: MenuItem[] = [
   {
@@ -77,13 +77,27 @@ const LayoutDecider = ({
     "icon": "https://cdns3dfsdev.toruslowcode.com/torus/9.1/resources/icons/admin-svgrepo-com.svg"
   },
   {
-    "menuGroupLabel": "MMS",
+    "menuGroupLabel": "DashBoard",
     "screenDetails": [
       {
-        "name": "mms",
-        "key": "CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1",
+        "name": "dashboard",
+        "key": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1",
         "allowedAccessProfile": [
-          "Operation Team"
+          "TOB Template "
+        ],
+        "static": false
+      }
+    ],
+    "items": []
+  },
+  {
+    "menuGroupLabel": "API Usage DashBoard",
+    "screenDetails": [
+      {
+        "name": "api usage dashboard",
+        "key": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Design:AFVK:v1",
+        "allowedAccessProfile": [
+          "TOB Template "
         ],
         "static": false
       }

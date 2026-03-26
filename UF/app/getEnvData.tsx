@@ -1,5 +1,5 @@
 let data:any ={
-  "VGPH_MMS_DPD": {
+  "TOB_DPD": {
     "encryptionType": {
       "name": "encryptionType",
       "_type": "select",

@@ -17,12 +17,12 @@ const ParentComponent = () => {
   const [nodeData, setNodeData] = useState(null)
   const [loading, setLoading] = useState(false)
   const [app, setApp] = useState({
-    code: 'MMS',
-    name: 'Mandate Management System'
+    code: 'TOB002',
+    name: 'Veracious Open Banking'
   })
   const [appGroup, setappGroup] = useState({
-    code: 'V001',
-    name: 'VGPH'
+    code: 'TOB001',
+    name: 'TOB'
   })
   const token: string = getCookie('token')
   const decodedToken: any = decodeToken(token)
@@ -49,7 +49,7 @@ const ParentComponent = () => {
   const [ fabrics , setFabrics ] = useState<Array<string>>([])
   const [jsonViewerData, setJsonViewerData] = useState({})
   const router = useRouter()
-  let landingScreen:string = 'CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1';
+  let landingScreen:string = 'CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1';
   const encryptionFlagApp: boolean = false;    
   const [jsonData, setJsonData] = useState({
     data: [],
@@ -74,7 +74,7 @@ const ParentComponent = () => {
   }
   let payload:any = useMemo(() => {
     return {
-      tenant: 'CT005',
+      tenant: 'CT009',
        fabric: fabrics.length > 0 ? fabrics.flatMap((prefix: any) =>
             suffixes[prefix]
               ? suffixes[prefix].map((suffix: any) => `${prefix}-${suffix}`)
@@ -271,7 +271,7 @@ const ParentComponent = () => {
   const securityCheck = async () => {
   try {
     const encryptionDpd: string =
-      'CK:CT005:FNGK:AF:FNK:CDF-DPD:CATK:V001:AFGK:MMS:AFK:VGPH_MMS_DPD:AFVK:v1'
+      'CK:CT009:FNGK:AF:FNK:CDF-DPD:CATK:TOB001:AFGK:TOB002:AFK:TOB_DPD:AFVK:v1'
     const encryptionMethod: string = ''
     let introspect: any
     if (encryptionFlagApp) {

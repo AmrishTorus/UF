@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/ct005/v001/mms/v1',
+  basePath: '/ct009/tob001/tob002/v1',
   reactStrictMode: false,
   output: 'standalone',  // Add this line to enable standalone builds,
   eslint: {

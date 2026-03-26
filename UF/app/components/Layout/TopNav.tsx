@@ -129,7 +129,7 @@ const TopNav = ({
   async function logout() {
     localStorage.clear()
     deleteAllCookies()
-    window.location.href = '/ct005/v001/mms/v1'
+    window.location.href = '/ct009/tob001/tob002/v1'
   }
   const hasMatchingName = (obj: any, input: string): boolean => {
     if (typeof obj !== 'object' || obj === null) return false

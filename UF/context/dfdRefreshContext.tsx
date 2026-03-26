@@ -126,110 +126,159 @@ export async function dfdRefreshContext(dfdkey:any,setState:any,page:any,count:a
 export function useHandleDfdRefresh(){
 
 
-    const {dfd_subscreen_db_v1Props,setdfd_subscreen_db_v1Props} = useContext(TotalContext) as TotalContextProps;
-    const {dfd_combo_subscreen_db_v1Props,setdfd_combo_subscreen_db_v1Props} = useContext(TotalContext) as TotalContextProps;
-    const {dfd_mandate_doc_lst_db_v1Props,setdfd_mandate_doc_lst_db_v1Props} = useContext(TotalContext) as TotalContextProps;
-    const {dfd_mandate_error_lst_db_v1Props,setdfd_mandate_error_lst_db_v1Props} = useContext(TotalContext) as TotalContextProps;
-    const {dfd_mandate_list_db_v1Props,setdfd_mandate_list_db_v1Props} = useContext(TotalContext) as TotalContextProps;
+    const {dfd_mongodb_maindashboard_dfd_v1Props,setdfd_mongodb_maindashboard_dfd_v1Props} = useContext(TotalContext) as TotalContextProps;
+    const {dfd_mongo_linechart_dfd_v1Props,setdfd_mongo_linechart_dfd_v1Props} = useContext(TotalContext) as TotalContextProps;
+    const {dfd_mongo_barchart_dfd_v1Props,setdfd_mongo_barchart_dfd_v1Props} = useContext(TotalContext) as TotalContextProps;
+    const {dfd_mongo_api_repository_dfd_v1Props,setdfd_mongo_api_repository_dfd_v1Props} = useContext(TotalContext) as TotalContextProps;
+    const {dfd_tob_consents_request_dfd_v1Props,setdfd_tob_consents_request_dfd_v1Props} = useContext(TotalContext) as TotalContextProps;
+    const {dfd_mongo_totalcalls_dfd_v1Props,setdfd_mongo_totalcalls_dfd_v1Props} = useContext(TotalContext) as TotalContextProps;
+    const {dfd_mongodb_api_process_logs_dfd_v1Props,setdfd_mongodb_api_process_logs_dfd_v1Props} = useContext(TotalContext) as TotalContextProps;
+    const {dfd_tob_consent_request_ca_dfd_v1Props,setdfd_tob_consent_request_ca_dfd_v1Props} = useContext(TotalContext) as TotalContextProps;
+    const {dfd_tob_total_used_api_dfd_v1Props,setdfd_tob_total_used_api_dfd_v1Props} = useContext(TotalContext) as TotalContextProps;
     const toast=useInfoMsg();
     const token:string = getCookie('token'); 
 
     return (nodename:any,page:any=1,count:any=10,dpdEncryption:any) => {
-            if("batch_type6befb"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("most_used_apis72497"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:MongoDB_MainDashboard_DFD:AFVK:v1",setdfd_mongodb_maindashboard_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("variable_pay68402"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("active_apisac162"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:MongoDB_MainDashboard_DFD:AFVK:v1",setdfd_mongodb_maindashboard_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("inhouse0b227"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("total_requests06c5a"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:MongoDB_MainDashboard_DFD:AFVK:v1",setdfd_mongodb_maindashboard_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("cr_acc_no596b0"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("error3d67b"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:MongoDB_MainDashboard_DFD:AFVK:v1",setdfd_mongodb_maindashboard_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("cr_acc_name0589d"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("line_chart0fe1c"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_LineChart_DFD:AFVK:v1",setdfd_mongo_linechart_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("floor_amnt59de7"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("barchart46476"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_BarChart_DFD:AFVK:v1",setdfd_mongo_barchart_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("ceiling_amntc6b28"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("apinamecccc2"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_API_Repository_DFD:AFVK:v1",setdfd_mongo_api_repository_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("brbanknamec54c8"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:Combo_subscreen_db:AFVK:v1",setdfd_combo_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("version33b3f"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_API_Repository_DFD:AFVK:v1",setdfd_mongo_api_repository_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("brbranchname951ce"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:Combo_subscreen_db:AFVK:v1",setdfd_combo_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("statuscd1e6"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_API_Repository_DFD:AFVK:v1",setdfd_mongo_api_repository_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("dr_sort_code26ce5"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("api_category0905e"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_API_Repository_DFD:AFVK:v1",setdfd_mongo_api_repository_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("currencye913a"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("release_date1939f"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_API_Repository_DFD:AFVK:v1",setdfd_mongo_api_repository_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("dr_acnt_no61f56"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("app_name800b4"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consents_Request_DFD:AFVK:v1",setdfd_tob_consents_request_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("dr_acnt_namee2b1e"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("tppname5329d"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consents_Request_DFD:AFVK:v1",setdfd_tob_consents_request_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("policy_no1316f6"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("typeb4599"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consents_Request_DFD:AFVK:v1",setdfd_tob_consents_request_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("policy_no2196cd"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("status_value35b5d"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consents_Request_DFD:AFVK:v1",setdfd_tob_consents_request_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("originator_codee7d60"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("apiname45fa8"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_API_Repository_DFD:AFVK:v1",setdfd_mongo_api_repository_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("frequency80676"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("versiona736c"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_API_Repository_DFD:AFVK:v1",setdfd_mongo_api_repository_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("duedate3cf41"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("statusddf07"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_API_Repository_DFD:AFVK:v1",setdfd_mongo_api_repository_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("expirydateee023"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:subscreen_db:AFVK:v1",setdfd_subscreen_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("api_category95348"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_API_Repository_DFD:AFVK:v1",setdfd_mongo_api_repository_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("doc_name6a955"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:mandate_doc_lst_db:AFVK:v1",setdfd_mandate_doc_lst_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("release_dateb41fc"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_API_Repository_DFD:AFVK:v1",setdfd_mongo_api_repository_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("vld_code5df31"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:mandate_error_lst_db:AFVK:v1",setdfd_mandate_error_lst_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("api_resourcepath88fa9"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_API_Repository_DFD:AFVK:v1",setdfd_mongo_api_repository_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("vld_reason0ec55"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:mandate_error_lst_db:AFVK:v1",setdfd_mandate_error_lst_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("total_calls5c0ea"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_TotalCalls_DFD:AFVK:v1",setdfd_mongo_totalcalls_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("mandateid05ce4"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:mandate_list_db:AFVK:v1",setdfd_mandate_list_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("success_rateee58b"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_TotalCalls_DFD:AFVK:v1",setdfd_mongo_totalcalls_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("dracntname92ac0"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:mandate_list_db:AFVK:v1",setdfd_mandate_list_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("error_rate960d3"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_TotalCalls_DFD:AFVK:v1",setdfd_mongo_totalcalls_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("dracntno42c4a"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:mandate_list_db:AFVK:v1",setdfd_mandate_list_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("trs_created_date93619"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:MongoDB_API_Process_Logs_DFD:AFVK:v1",setdfd_mongodb_api_process_logs_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("cracntname9fdc4"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:mandate_list_db:AFVK:v1",setdfd_mandate_list_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("requestdata1d4f4"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:MongoDB_API_Process_Logs_DFD:AFVK:v1",setdfd_mongodb_api_process_logs_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("cracntnoc7b4d"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:mandate_list_db:AFVK:v1",setdfd_mandate_list_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("responsedata35a3f"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:MongoDB_API_Process_Logs_DFD:AFVK:v1",setdfd_mongodb_api_process_logs_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("ceilingamnt62ee2"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:mandate_list_db:AFVK:v1",setdfd_mandate_list_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("tob_consent_requestid80eee"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:MongoDB_API_Process_Logs_DFD:AFVK:v1",setdfd_mongodb_api_process_logs_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("frequency1a4a6"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:mandate_list_db:AFVK:v1",setdfd_mandate_list_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("request_consent_baseconsentid4221e"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consent_Request_CA_DFD:AFVK:v1",setdfd_tob_consent_request_ca_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("duedate03f9a"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:mandate_list_db:AFVK:v1",setdfd_mandate_list_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("interactionid5cd91"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consent_Request_CA_DFD:AFVK:v1",setdfd_tob_consent_request_ca_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("expirydate3fe80"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:mandate_list_db:AFVK:v1",setdfd_mandate_list_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("request_consent_permissions1448d"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consent_Request_CA_DFD:AFVK:v1",setdfd_tob_consent_request_ca_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
-            if("status68b01"==nodename){
-                dfdRefreshContext("CK:CT005:FNGK:AF:FNK:DF-DFD:CATK:V001:AFGK:MMS:AFK:mandate_list_db:AFVK:v1",setdfd_mandate_list_db_v1Props,page,count,dpdEncryption,toast,token);
+            if("consentbody_data_revokedby6ede9"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consent_Request_CA_DFD:AFVK:v1",setdfd_tob_consent_request_ca_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("request_consent_expiratriondatetime3ba51"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consent_Request_CA_DFD:AFVK:v1",setdfd_tob_consent_request_ca_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("status61386"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consent_Request_CA_DFD:AFVK:v1",setdfd_tob_consent_request_ca_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("most_used_apis2686b"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:MongoDB_MainDashboard_DFD:AFVK:v1",setdfd_mongodb_maindashboard_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("error_rate72497"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:MongoDB_MainDashboard_DFD:AFVK:v1",setdfd_mongodb_maindashboard_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("api_call_over_hour_linechart38cfd"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_LineChart_DFD:AFVK:v1",setdfd_mongo_linechart_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("api_call_over_month_linechartcc886"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_LineChart_DFD:AFVK:v1",setdfd_mongo_linechart_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("week_linechart709e7"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:Mongo_LineChart_DFD:AFVK:v1",setdfd_mongo_linechart_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("get_acc_progressf3140"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Total_Used_API_DFD:AFVK:v1",setdfd_tob_total_used_api_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("get_acc_id_progress564cc"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Total_Used_API_DFD:AFVK:v1",setdfd_tob_total_used_api_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("get_balance_progressa0d54"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Total_Used_API_DFD:AFVK:v1",setdfd_tob_total_used_api_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("get_direct_debits_progress04032"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Total_Used_API_DFD:AFVK:v1",setdfd_tob_total_used_api_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("app_namedc4c5"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consents_Request_DFD:AFVK:v1",setdfd_tob_consents_request_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("tppname5b032"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consents_Request_DFD:AFVK:v1",setdfd_tob_consents_request_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("typed4eac"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consents_Request_DFD:AFVK:v1",setdfd_tob_consents_request_dfd_v1Props,page,count,dpdEncryption,toast,token);
+            }
+            if("status_value3beb3"==nodename){
+                dfdRefreshContext("CK:CT009:FNGK:AF:FNK:DF-DFD:CATK:TOB001:AFGK:TOB002:AFK:TOB_Consents_Request_DFD:AFVK:v1",setdfd_tob_consents_request_dfd_v1Props,page,count,dpdEncryption,toast,token);
             }
     };
 }

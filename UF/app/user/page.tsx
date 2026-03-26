@@ -16,12 +16,12 @@ function page() {
   const token = getCookie('token')
   const decodedToken = decodeToken(token)
   const router = useRouter()
-  let landingScreen: string = 'CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1'
+  let landingScreen: string = 'CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1'
   const encryptionFlagApp: boolean = false;    
   const securityCheck = async () => {
     try {
       const encryptionDpd: string =
-        'CK:CT005:FNGK:AF:FNK:CDF-DPD:CATK:V001:AFGK:MMS:AFK:VGPH_MMS_DPD:AFVK:v1'
+        'CK:CT009:FNGK:AF:FNK:CDF-DPD:CATK:TOB001:AFGK:TOB002:AFK:TOB_DPD:AFVK:v1'
       const encryptionMethod: string = ''
       let introspect: any
       if (encryptionFlagApp) {

@@ -41,7 +41,7 @@ const ContextSelector = () => {
   const tp_ps: any = getCookie('tp_ps')
   const toast = useInfoMsg()
   const baseUrl: any = process.env.NEXT_PUBLIC_API_BASE_URL
-  const appName = 'Mandate Management System'
+  const appName = 'Veracious Open Banking'
   const [accessProfiles, setAccessProfiles] = useState<any[]>([])
   const router = useRouter()
   const [loading, setLoading] = useState(false)
@@ -56,13 +56,18 @@ const ContextSelector = () => {
   const [selectedRole, setSelectedRole] = useState<Record<string, string>>({})
   const [orgGrpData, setOrgGrpData] = useState<any>([])
   const [isPending, startTransition] = useTransition();  
-  let landingScreen:string = 'CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1';
+  let landingScreen:string = 'CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1';
   let screenDetails: any = {
            keys:[
   {
-    "screenName": "mms",
-    "screensName": "mms-v1",
-    "ufKey": "CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1"
+    "screenName": "dashboard",
+    "screensName": "dashboard-v1",
+    "ufKey": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Screen:AFVK:v1"
+  },
+  {
+    "screenName": "api usage dashboard",
+    "screensName": "api_usage_dashboard-v1",
+    "ufKey": "CK:CT009:FNGK:AF:FNK:UF-UFW:CATK:TOB001:AFGK:TOB002:AFK:VOB_Dashboard_Design:AFVK:v1"
   }
 ]
   }
