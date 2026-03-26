@@ -1,4 +1,5 @@
 'use client'
+
 import React, { useState,useEffect,useContext, useRef } from 'react';
 import axios from 'axios';
 import i18n from '@/app/components/i18n';
@@ -6,6 +7,7 @@ import { codeExecution } from '@/app/utils/codeExecution';
 import { useInfoMsg } from "@/app/components/infoMsgHandler";
 import { TotalContext, TotalContextProps } from '@/app/globalContext';
 import { uf_getPFDetailsDto,uf_initiatePfDto,te_eventEmitterDto,uf_ifoDto,te_updateDto } from '@/app/interfaces/interfaces';
+import {commonSepareteDataFromTheObject } from '@/app/utils/eventFunction';
 import { AxiosService } from '@/app/components/axiosService';
 import { getCookie } from '@/app/components/cookieMgment';
 import { nullFilter } from '@/app/utils/nullDataFilter';
@@ -14,6 +16,7 @@ import { useRouter } from 'next/navigation';
 import { eventBus } from '@/app/eventBus';
 import {Modal} from '@/components/Modal';
 import { Button } from '@/components/Button';
+import UOmapperData from '@/context/dfdmapperContolnames.json';
 import { Text } from '@/components/Text';
 import { Icon } from '@/components/Icon';
 import { getFilterProps,getRouteScreenDetails } from '@/app/utils/assemblerKeys';
@@ -236,6 +239,30 @@ const Buttondelete = ({mainData,setRefetch,encryptionFlagCompData}:any) => {
       }
     });
   },[])
+
+  function SourceIdFilter(eventProperty:any,matchingSequence?:string){
+    let ans : any[] = [];
+    let id : string = "";
+    if(eventProperty.name=='saveHandler' && eventProperty.sequence == matchingSequence)
+    {
+      return [eventProperty.id]
+    }
+    if(eventProperty.name=='eventEmitter' && eventProperty.sequence == matchingSequence)
+    {
+      return [eventProperty.id]
+    }
+    for(let i=0;i<eventProperty?.children?.length;i++)
+    {
+      let temp:any=SourceIdFilter(eventProperty?.children[i],matchingSequence)
+      if(temp.length)
+      {
+        ans.push(eventProperty?.children[i].id)
+        id=id+"|"+eventProperty?.children[i].id
+        ans.push(...temp)
+      }
+    }
+    return ans
+  }
 
 
   const handleClick=async()=>{

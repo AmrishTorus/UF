@@ -185,6 +185,43 @@ const Tabledocdatalst = ({ headerButtonsRenders=()=>{return<></>},headerPosition
       .replace(/properties\./g, '');
   }
 
+  function getColumnTypeFromSchema(schemaNode: any, columnId: string): string {
+    const nodeType = schemaNode?.nodeType;
+    const schema = schemaNode?.schema;
+
+    if (!schema || !columnId) return 'string';
+
+    if (nodeType === 'datasetnode' || nodeType === 'datasetschemanode') {
+      if (schema?.type === 'object') {
+        return schema?.properties?.[columnId]?.type || 'string';
+      } else if (schema?.type === 'array') {
+        return schema?.items?.properties?.[columnId]?.type || 'string';
+      }
+    } else if (nodeType === 'apinode') {
+      const responseSchema = schema?.responses?.["200"]?.content?.["application/json"]?.schema;
+      if (responseSchema?.type === 'object') {
+        return responseSchema?.properties?.[columnId]?.type || 'string';
+      } else if (responseSchema?.type === 'array') {
+        return responseSchema?.items?.properties?.[columnId]?.type || 'string';
+      }
+    } else if (nodeType === 'dbnode') {
+      if (Array.isArray(schema)) {
+        const col = schema.find((c: any) => c.name === columnId);
+        return col?.type || 'string';
+      }
+    }
+
+    return 'string';
+  }
+
+  function formatNumberWithCommas(value: any): string | any {
+    if (value === null || value === undefined || value === '') return value;
+    const num = typeof value === 'string' ? parseFloat(value) : value;
+    if (isNaN(num) || !isFinite(num)) return value;
+    if (typeof value === 'string' && !/^-?\d+(\.\d+)?$/.test(value.trim())) return value;
+    return num.toLocaleString('en-US');
+  }
+
   const GetTableDetails = async () => {
     const orchestrationData = await AxiosService.post(
       '/UF/Orchestration',
@@ -253,9 +290,10 @@ const Tabledocdatalst = ({ headerButtonsRenders=()=>{return<></>},headerPosition
           let nodeId = mapperData[j]?.sourcekey.split("|")[1];
           let path = mapperData[j]?.sourcekey.split("|")[2];
           for (let k = 0; k < schemaDataDFO.length; k++) {
-            if (schemaDataDFO[k].nodeId === nodeId) {                    
-              altertColumns.push({...allowesColumns[i],type:getValueByPath(schemaDataDFO[k], path) || 'string'})
-            }                 
+            if (schemaDataDFO[k].nodeId === nodeId) {
+              const columnType = getColumnTypeFromSchema(schemaDataDFO[k], allowesColumns[i].id);
+              altertColumns.push({...allowesColumns[i], type: columnType})
+            }
           }
         }
       }
@@ -406,13 +444,19 @@ const Tabledocdatalst = ({ headerButtonsRenders=()=>{return<></>},headerPosition
           toast(api_pagination?.data?.errorDetails?.message, 'danger')
           return
         }
-        setAllData(api_pagination?.data?.records)
-        //456
-        setPaginationData(prevState => ({
-          ...prevState,
-          page:+page,
-          total: api_pagination.data.totalRecords
-        }))
+        if(api_pagination?.data?.records?.length==0 && page!=0 && page!='0'&& page!=undefined)
+        {
+          await fetchData((+page)-1,pageSize,searchParams,dfKey,isRulePresent,isOnLoad,filterProps,itsFromRefreshHandler)
+          return
+        }
+        else{
+          setAllData(api_pagination?.data?.records)
+          setPaginationData(prevState => ({
+            ...prevState,
+            page:+page,
+            total: api_pagination.data.totalRecords
+          }))
+        }
         }else{
           const paginationFilterData = filterProps.reduce((acc: any, item: any) => {
             Object.keys(item).forEach((key) => {
@@ -431,9 +475,6 @@ const Tabledocdatalst = ({ headerButtonsRenders=()=>{return<></>},headerPosition
               .replace(':AF:', ':AFP:')
               .replace(':DF-DFD:', ':DF-DST:'),
             searchFilter: paginationFilterData
-          }
-          if(te_refresh?.data?.dataset === 'Bulk Data Processing'){
-          api_paginationBody["filterData"] = filterProps
           }
           if(encryptionFlagCont) {
             api_paginationBody["dpdKey"] = encryptionDpd
@@ -711,6 +752,12 @@ const Tabledocdatalst = ({ headerButtonsRenders=()=>{return<></>},headerPosition
                     style={{ fontSize: "0.833vw" }}
                     collapsed={true}
                   />
+              } else {
+                // Check if column type is number and format with commas
+                const columnConfig = translatedColumns.find((col: any) => col.id === key || col.dfdName === key);
+                if (columnConfig?.type === 'number' || columnConfig?.type === 'integer' || typeof JSONType[key] === 'number') {
+                  JSONType[key] = formatNumberWithCommas(JSONType[key]);
+                }
               }
           })
           filtertedData[i] = JSONType

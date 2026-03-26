@@ -88,6 +88,20 @@ const TextInputcr_acc_name = ({checkToAdd,setCheckToAdd,refetch,setRefetch,encry
   const [showProfileAsModalOpen, setShowProfileAsModalOpen] = React.useState<boolean>(false);
   const [showElementAsPopupOpen, setShowElementAsPopupOpen] = React.useState<boolean>(false);
   const encryptionFlagCont: boolean = encryptionFlagCompData?.flag || false;
+
+  function formatNumberWithCommas(value: any): string | any {
+    if (value === null || value === undefined || value === '') return value;
+    const num = typeof value === 'string' ? parseFloat(value) : value;
+    if (isNaN(num) || !isFinite(num)) return value;
+    if (typeof value === 'string' && !/^-?\d+(\.\d+)?$/.test(value.trim())) return value;
+    return num.toLocaleString('en-US');
+  }
+
+  function parseFormattedNumber(value: string): number {
+    const cleanedValue = value.replace(/,/g, '');
+    return parseFloat(cleanedValue) || 0;
+  }
+
   let encryptionDpd: string = "";
   encryptionDpd = encryptionDpd !=='' ? encryptionDpd: encryptionFlagCompData?.dpd;
   let encryptionMethod: string = "";
@@ -197,12 +211,17 @@ const TextInputcr_acc_name = ({checkToAdd,setCheckToAdd,refetch,setRefetch,encry
       setError('');
       setValidate((pre:any)=>({...pre,Mms_Mandate_Info_v1:{...pre?.Mms_Mandate_Info_v1,cr_name:undefined}}));
     if(dynamicStateandType.type=="number"){
+      const inputValue = e.target.value.replace(/,/g, '');
+      if(inputValue !== '' && isNaN(Number(inputValue))){
+        toast("Please enter numbers only", "danger");
+        return;
+      }
     setsubgroup7f52e((prev: any) => ({ ...prev, cr_name: +e.target.value }));
     }
     else{
     setsubgroup7f52e((prev: any) => ({ ...prev, cr_name: e.target.value }));
     }
-    const newInputValue = dynamicStateandType.type=="number" ? +e.target.value : e.target.value;
+    const newInputValue = dynamicStateandType.type=="number" ? +e.target.value.replace(/,/g, '') : e.target.value;
     let code:string=allCode;
      if (code != '') {
       let codeStates: any = {};
@@ -299,13 +318,6 @@ const TextInputcr_acc_name = ({checkToAdd,setCheckToAdd,refetch,setRefetch,encry
       //   setDynamicStateandType(type);
       // }
       // }
-      if(Array.isArray(orchestrationData?.data?.dstData))
-      {
-        return
-      }else{
-      //  if(Object.keys(orchestrationData?.data?.dstData).length>0) 
-       // setsubgroup7f52e((pre:any)=>({...pre,cr_name:orchestrationData?.data?.dstData}))
-      }
     }
     catch(err)
     {
@@ -338,8 +350,8 @@ const TextInputcr_acc_name = ({checkToAdd,setCheckToAdd,refetch,setRefetch,encry
         label={keyset("")}
         onChange= {handleChange}
         onBlur={handleBlur}
-        type={dynamicStateandType.type}
-        value={subgroup7f52e?.cr_name||""}
+        type= {dynamicStateandType.type === "number" ? "text" : dynamicStateandType.type}
+        value= {dynamicStateandType.type === "number" ? formatNumberWithCommas(subgroup7f52e?.cr_name) || "" : subgroup7f52e?.cr_name|| ""}
          disabled= {cr_acc_name0589d?.isDisabled ? true : false}
         pin='brick-brick'     
         view='normal'

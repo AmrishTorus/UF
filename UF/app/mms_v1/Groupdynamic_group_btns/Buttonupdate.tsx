@@ -522,23 +522,21 @@ const Buttonupdate = ({ lockedData,setLockedData,primaryTableData, setPrimaryTab
                               ]
                             },
                             {
-                              "id": "35bbbff9845d4a268ef55f788405d670.1.1.1.2.1.2.1.8",
+                              "id": "35bbbff9845d4a268ef55f788405d670.1.1.1.2.1.2.1.9",
                               "eventContext": "riseListen",
                               "value": "",
                               "type": "handlerNode",
-                              "name": "refreshElement",
-                              "sequence": "1.1.1.2.1.2.1.8",
+                              "name": "clearHandler",
+                              "sequence": "1.1.1.2.1.2.1.9",
                               "children": [
                                 {
-                                  "id": "bb11e327ece246e9ac30eb202011fd5c.1.1.1.2.1.2.1.8.1",
-                                  "value": "",
-                                  "type": "screen",
-                                  "name": "Mms_Mandate_Info.v1|doc_data_lst",
-                                  "label": "",
+                                  "id": "bb11e327ece246e9ac30eb202011fd5c.1.1.1.2.1.2.1.9.1",
+                                  "type": "group",
+                                  "name": "Mms_Mandate_Info|doc_data_lst",
                                   "key": "CK:CT005:FNGK:AF:FNK:UF-UFW:CATK:V001:AFGK:MMS:AFK:Mms_Mandate_Info:AFVK:v1|doc_data_lst",
-                                  "elementType": "group",
+                                  "elementType": "table",
                                   "groupType": "table",
-                                  "sequence": "1.1.1.2.1.2.1.8.1",
+                                  "sequence": "1.1.1.2.1.2.1.9.1",
                                   "children": []
                                 }
                               ]
@@ -950,9 +948,17 @@ const Buttonupdate = ({ lockedData,setLockedData,primaryTableData, setPrimaryTab
     // refreshElement
 // for group
  setvaldtn_data_lst378bcProps((pre:any)=>({...pre,refresh:!pre?.refresh}))
-    // refreshElement
-// for group
- setdoc_data_lst1fd5cProps((pre:any)=>({...pre,refresh:!pre?.refresh}))
+  setLockedData({}) //Clears lockedData and resets it in subsequent screens.
+  lockedData={} //Clears lockedData; clicking the button again without a selection returns no value.
+      // clearHandler riseListen
+      // for table
+      setdoc_data_lst1fd5c([]);
+      setdoc_data_lst1fd5cProps((pre:any) => ({
+        ...pre,
+        clearData: true,  // Flag to clear allDataObject without re-fetching
+        selectedIds: [],
+         presetValues: {}
+      }));                
               }
     }
     catch(err:any)
